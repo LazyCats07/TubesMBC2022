@@ -8,4 +8,43 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/OP_Cutscene.unity
+    guid: 05d086a8158323141a7fbcdbe6ba11ce
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_Roaming.unity
+    guid: fc22779c52b4de54aa9d3a8a27918070
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_Combat.unity
+    guid: 3bd823ecfdd4d3d4386621e74ab0fdd7
+  - enabled: 1
+    path: Assets/Scenes/Area2_Roaming.unity
+    guid: 3e80e716eda768744b83d740d7edf337
+  - enabled: 1
+    path: Assets/Scenes/Area2_Combat.unity
+    guid: cececa776e390a440b736ba1e0b390e4
+  - enabled: 1
+    path: Assets/Scenes/Area3_Roaming.unity
+    guid: 407970a82f3ce064e985660192677540
+  - enabled: 1
+    path: Assets/Scenes/Area3_Combat.unity
+    guid: 6cc228565553363448eb33244909509f
+  - enabled: 1
+    path: Assets/Scenes/HuangLong_Cutscene.unity
+    guid: a18572bd467ea6f4db97e25207ef9e12
+  - enabled: 1
+    path: Assets/Scenes/Area4_Combat.unity
+    guid: 5dbb3570fa0a8c64a9936221f85417bc
+  - enabled: 1
+    path: Assets/Scenes/Area4_Roaming.unity
+    guid: d35ff312a71dd3541939844f555f4417
+  - enabled: 1
+    path: Assets/Scenes/Area5_Combat.unity
+    guid: 83065ae9ecc32f6489361b396553a935
+  - enabled: 1
+    path: Assets/Scenes/ED_Cutscene.unity
+    guid: 51e66e97c9dce9e4ba9f3ae6a89d199c
+  - enabled: 1
+    path: Assets/Scenes/Party_Menu.unity
+    guid: 3c072a3210d72a946aa7673f59a861ed
   m_configObjects: {}
