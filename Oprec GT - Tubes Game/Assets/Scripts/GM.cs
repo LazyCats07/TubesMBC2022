@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GM : MonoBehaviour
 {
-       [SerializeField]
+    [SerializeField]
     GameObject PauseMenu;
     // Start is called before the first frame update
     void Start()
