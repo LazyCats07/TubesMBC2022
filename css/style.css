@@ -3,3 +3,11 @@
 Ini untuk bootstrap nya, liat docs bootstrap untuk css code nya, atau bikin sendiri juga bisa
 https://getbootstrap.com/
 */
+
+.navbar{
+  background-color: #e9def1;
+}
+
+.sejarah-title{
+  text-decoration: underline;
+}
