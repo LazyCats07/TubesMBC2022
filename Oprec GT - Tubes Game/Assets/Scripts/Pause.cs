@@ -29,4 +29,13 @@ public class Pause : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+         PauseMenu.SetActive(false);
+         Time.timeScale = 0f;
+        }
+    }
+
 }
