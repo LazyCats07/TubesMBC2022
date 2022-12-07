@@ -11,3 +11,12 @@ https://getbootstrap.com/
 .sejarah-title{
   text-decoration: underline;
 }
+
+footer{
+  background: black;
+    height: 80px;
+    text-align: center;
+    color: white;
+    padding: 17px;
+    margin-top: 20px;
+}
