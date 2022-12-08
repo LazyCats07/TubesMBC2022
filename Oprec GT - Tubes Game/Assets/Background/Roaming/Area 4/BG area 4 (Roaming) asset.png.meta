@@ -1,37 +1,49 @@
 fileFormatVersion: 2
-guid: a81d83a746569b14a9ec52b0a8b93484
+guid: 15a74f783f68738488c469e884b098e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6846292978569457548
-    second: Area 3-Tower Lt.1 (Roaming) pisah_0
+      213: 2065881010443148892
+    second: BG area 4 (Roaming) asset_0
   - first:
-      213: 3237771652905152712
-    second: Area 3-Tower Lt.1 (Roaming) pisah_1
+      213: 4539358934090024834
+    second: BG area 4 (Roaming) asset_1
   - first:
-      213: 4904963048004393458
-    second: Area 3-Tower Lt.1 (Roaming) pisah_2
+      213: 159948219995360024
+    second: BG area 4 (Roaming) asset_2
   - first:
-      213: -1635074921950879542
-    second: Area 3-Tower Lt.1 (Roaming) pisah_3
+      213: -2862332890550331109
+    second: BG area 4 (Roaming) asset_3
   - first:
-      213: 333539803575671282
-    second: Area 3-Tower Lt.1 (Roaming) pisah_4
+      213: -5240059498775389267
+    second: BG area 4 (Roaming) asset_4
   - first:
-      213: 628875114534382698
-    second: Area 3-Tower Lt.1 (Roaming) pisah_5
+      213: 506643691660019046
+    second: BG area 4 (Roaming) asset_5
   - first:
-      213: -1777508547290738530
-    second: Area 3-Tower Lt.1 (Roaming) pisah_6
+      213: 5274711516614095643
+    second: BG area 4 (Roaming) asset_6
   - first:
-      213: -1042616509449116401
-    second: Area 3-Tower Lt.1 (Roaming) pisah_7
+      213: 6750346526710103189
+    second: BG area 4 (Roaming) asset_7
   - first:
-      213: -4963113076777869893
-    second: Area 3-Tower Lt.1 (Roaming) pisah_8
+      213: -6961132862237032822
+    second: BG area 4 (Roaming) asset_8
   - first:
-      213: 2203184315327172130
-    second: Area 3-Tower Lt.1 (Roaming) pisah_9
+      213: -9101672260562744586
+    second: BG area 4 (Roaming) asset_9
+  - first:
+      213: 44194110177097810
+    second: BG area 4 (Roaming) asset_10
+  - first:
+      213: -8734520388508462170
+    second: BG area 4 (Roaming) asset_11
+  - first:
+      213: 2596499229687079222
+    second: BG area 4 (Roaming) asset_12
+  - first:
+      213: 542759191973350421
+    second: BG area 4 (Roaming) asset_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_0
+      name: BG area 4 (Roaming) asset_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3326
-        width: 8005
-        height: 346
+        y: 2945
+        width: 1014
+        height: 1027
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470dd182fc41df0a0800000000000000
-      internalID: -6846292978569457548
+      spriteID: c5e50bf55db7bac10800000000000000
+      internalID: 2065881010443148892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_1
+      name: BG area 4 (Roaming) asset_1
       rect:
         serializedVersion: 2
-        x: 248
-        y: 1371
-        width: 352
-        height: 1591
+        x: 1288
+        y: 3374
+        width: 868
+        height: 790
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c0bd33f920eeec20800000000000000
-      internalID: 3237771652905152712
+      spriteID: 2878e6666ea0ffe30800000000000000
+      internalID: 4539358934090024834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_2
+      name: BG area 4 (Roaming) asset_2
       rect:
         serializedVersion: 2
-        x: 967
-        y: 2325
-        width: 2776
-        height: 657
+        x: 2430
+        y: 3582
+        width: 852
+        height: 699
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f918b097ede11440800000000000000
-      internalID: 4904963048004393458
+      spriteID: 81b87430f00483200800000000000000
+      internalID: 159948219995360024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_3
+      name: BG area 4 (Roaming) asset_3
       rect:
         serializedVersion: 2
-        x: 4333
-        y: 2654
-        width: 3408
-        height: 351
+        x: 3555
+        y: 3632
+        width: 814
+        height: 651
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac0e7ff750c0f49e0800000000000000
-      internalID: -1635074921950879542
+      spriteID: b1994ddb663f648d0800000000000000
+      internalID: -2862332890550331109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_4
+      name: BG area 4 (Roaming) asset_4
       rect:
         serializedVersion: 2
-        x: 4004
-        y: 2063
-        width: 2674
-        height: 352
+        x: 4681
+        y: 3558
+        width: 797
+        height: 664
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f9d4962fa8f0a400800000000000000
-      internalID: 333539803575671282
+      spriteID: dabd49d16a19747b0800000000000000
+      internalID: -5240059498775389267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_5
+      name: BG area 4 (Roaming) asset_5
       rect:
         serializedVersion: 2
-        x: 7078
-        y: 1653
-        width: 352
-        height: 723
+        x: 7058
+        y: 2949
+        width: 948
+        height: 1334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6ca7e1b5963ab800800000000000000
-      internalID: 628875114534382698
+      spriteID: 6658615d0c5f70700800000000000000
+      internalID: 506643691660019046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_6
+      name: BG area 4 (Roaming) asset_6
       rect:
         serializedVersion: 2
-        x: 936
-        y: 585
-        width: 352
-        height: 1079
+        x: 0
+        y: 158
+        width: 1541
+        height: 2094
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e90d385d4650557e0800000000000000
-      internalID: -1777508547290738530
+      spriteID: b13f1708d2a833940800000000000000
+      internalID: 5274711516614095643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_7
+      name: BG area 4 (Roaming) asset_13
       rect:
         serializedVersion: 2
-        x: 2034
-        y: 604
-        width: 1216
-        height: 1040
+        x: 5882
+        y: 0
+        width: 2124
+        height: 2284
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,50 +318,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f05e3550fc1e781f0800000000000000
-      internalID: -1042616509449116401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_8
-      rect:
-        serializedVersion: 2
-        x: 7088
-        y: 104
-        width: 352
-        height: 954
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbd1f8ec3fa7f1bb0800000000000000
-      internalID: -4963113076777869893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Area 3-Tower Lt.1 (Roaming) pisah_9
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 11
-        width: 444
-        height: 414
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22ec9c93678439e10800000000000000
-      internalID: 2203184315327172130
+      spriteID: 51c46240c94488700800000000000000
+      internalID: 542759191973350421
       vertices: []
       indices: 
       edges: []
