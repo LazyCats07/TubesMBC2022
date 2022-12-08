@@ -2,39 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class Pause : MonoBehaviour
+public class PartyMenu : MonoBehaviour
 {
     [SerializeField]
-    GameObject PauseMenu;
-    
-    
+    GameObject Party;
 
-    public void Pausee()
+    public void Partyy()
     {
-        PauseMenu.SetActive(true);
+        Party.SetActive(true);
         Time.timeScale = 0f;
     }
     public void Resume()
     {
-        PauseMenu.SetActive(false);
+        Party.SetActive(false);
         Time.timeScale = 1f;
     }
-    public void Title()
-    {
-        SceneManager.LoadScene("Main Menu");
-    }
 
-   
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-         PauseMenu.SetActive(false);
+         Party.SetActive(false);
          Time.timeScale = 0f;
         }
     }
-
 }
-
