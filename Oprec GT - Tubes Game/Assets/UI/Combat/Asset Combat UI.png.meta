@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: df9dbab92a3843c4b85bb8fd16ad85e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6787015947277532494
+    second: Asset Combat UI_0
+  - first:
+      213: 251805073280315462
+    second: Asset Combat UI_1
+  - first:
+      213: 6371045757771724489
+    second: Asset Combat UI_2
+  - first:
+      213: -7946864145680548033
+    second: Asset Combat UI_3
+  - first:
+      213: -9184055565423399445
+    second: Asset Combat UI_4
+  - first:
+      213: -3252152551231929134
+    second: Asset Combat UI_5
+  - first:
+      213: -7123907199019580859
+    second: Asset Combat UI_6
+  - first:
+      213: 8383520614043350804
+    second: Asset Combat UI_7
+  - first:
+      213: 2943281276529687347
+    second: Asset Combat UI_8
+  - first:
+      213: -3548781920358243310
+    second: Asset Combat UI_9
+  - first:
+      213: -4843554832107702612
+    second: Asset Combat UI_10
+  - first:
+      213: -4559383727887637256
+    second: Asset Combat UI_11
+  - first:
+      213: -4854668779408145100
+    second: Asset Combat UI_12
+  - first:
+      213: 1319970535239420642
+    second: Asset Combat UI_13
+  - first:
+      213: 4479680055116430207
+    second: Asset Combat UI_14
+  - first:
+      213: 5539466873852609097
+    second: Asset Combat UI_15
+  - first:
+      213: -971670205652870215
+    second: Asset Combat UI_16
+  - first:
+      213: 3295768401245793636
+    second: Asset Combat UI_17
+  - first:
+      213: -3126714018858831044
+    second: Asset Combat UI_18
+  - first:
+      213: 4710608445636516740
+    second: Asset Combat UI_19
+  - first:
+      213: 1961195059007508612
+    second: Asset Combat UI_20
+  - first:
+      213: 6641273027646716623
+    second: Asset Combat UI_21
+  - first:
+      213: 1734567862816541828
+    second: Asset Combat UI_22
+  - first:
+      213: 2047196156274571163
+    second: Asset Combat UI_23
+  - first:
+      213: -7527447803253385580
+    second: Asset Combat UI_24
+  - first:
+      213: -3548047568698304844
+    second: Asset Combat UI_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asset Combat UI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3798
+        width: 206
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b28c9184fcafc1a0800000000000000
+      internalID: -6787015947277532494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3197
+        width: 213
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640b38941679e7300800000000000000
+      internalID: 251805073280315462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 3242
+        width: 263
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c63eb78c508a6850800000000000000
+      internalID: 6371045757771724489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3798
+        width: 226
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f3c6ee92117b190800000000000000
+      internalID: -7946864145680548033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_4
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 3800
+        width: 310
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed2d795f1eab8080800000000000000
+      internalID: -9184055565423399445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_5
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 3197
+        width: 300
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4c07c3c780ed2d0800000000000000
+      internalID: -3252152551231929134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_6
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 3188
+        width: 332
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5420795852cc22d90800000000000000
+      internalID: -7123907199019580859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_7
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 3795
+        width: 312
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417f737a49f385470800000000000000
+      internalID: 8383520614043350804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_8
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 3250
+        width: 1895
+        height: 954
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b3c911ab2a8d820800000000000000
+      internalID: 2943281276529687347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_9
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 2790
+        width: 669
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214e7bb45a130cec0800000000000000
+      internalID: -3548781920358243310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_10
+      rect:
+        serializedVersion: 2
+        x: 4238
+        y: 2782
+        width: 656
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6f71eda8c38ccb0800000000000000
+      internalID: -4843554832107702612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_11
+      rect:
+        serializedVersion: 2
+        x: 6368
+        y: 3240
+        width: 936
+        height: 830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4af88f7a0d9b0c0800000000000000
+      internalID: -4559383727887637256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1262
+        width: 2597
+        height: 1110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435c23d5770c0acb0800000000000000
+      internalID: -4854668779408145100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 478
+        width: 532
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea8de2553a715210800000000000000
+      internalID: 1319970535239420642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 2199
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bfd9896450b2e30800000000000000
+      internalID: 4479680055116430207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 2206
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942470db5c320ec40800000000000000
+      internalID: 5539466873852609097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_16
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 250
+        width: 2209
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbda39981fe382f0800000000000000
+      internalID: -971670205652870215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_17
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 4
+        width: 2225
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d663236ebecbd20800000000000000
+      internalID: 3295768401245793636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_18
+      rect:
+        serializedVersion: 2
+        x: 5662
+        y: 0
+        width: 1814
+        height: 1718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c337fa77a2eab94d0800000000000000
+      internalID: -3126714018858831044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_19
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 2520
+        width: 334
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b9e166c617f5140800000000000000
+      internalID: 4710608445636516740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_20
+      rect:
+        serializedVersion: 2
+        x: 6835
+        y: 2567
+        width: 328
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480d46be380973b10800000000000000
+      internalID: 1961195059007508612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_21
+      rect:
+        serializedVersion: 2
+        x: 6691
+        y: 1892
+        width: 648
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaf345b1aa8a2c50800000000000000
+      internalID: 6641273027646716623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_22
+      rect:
+        serializedVersion: 2
+        x: 5781
+        y: 1890
+        width: 512
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c0df5f74c621810800000000000000
+      internalID: 1734567862816541828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_23
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 774
+        width: 2215
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b977a40ce0a196c10800000000000000
+      internalID: 2047196156274571163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 769
+        width: 2202
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49699c5ea12298790800000000000000
+      internalID: -7527447803253385580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset Combat UI_25
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 1391
+        width: 1058
+        height: 1008
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b69c8dd88dc2cec0800000000000000
+      internalID: -3548047568698304844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
