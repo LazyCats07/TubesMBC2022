@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3.5fr;
+    grid-template-columns: 2fr 1fr 5fr;
+    /* grid-template-columns: [awal]100px 150px;
+    grid-template-rows: 50px 30px;
+    grid-auto-flow: column; */
+    /* grid-auto-rows: 200px ; */
+}
+
+.item{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even){
+    background-color: pink;
+}
