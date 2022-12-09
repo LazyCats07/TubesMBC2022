@@ -8,20 +8,87 @@ https://getbootstrap.com/
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-
-.navbar{
-  background-color: #e9def1;
+.container-fluid{
+  background-color: #2F1B50;
 }
 
-.sejarah-title{
-  text-decoration: underline;
+.nav-link:hover {
+  color :red !important;
+}
+.dropdown-item:hover {
+  color:red !important;
 }
 
-footer{
-  background: black;
-    height: 80px;
-    text-align: center;
-    color: white;
-    padding: 17px;
-    margin-top: 20px;
+.dropdown:hover .dropdown-menu{
+  display: block;
+
+}
+.home h1 {
+  color: grey;
+  padding-left: 10px;
+  text-shadow: #5F5E5E;
+  
+}
+.home img{
+  width: auto;
+  height: 550px;
+  padding-left: 450px;
+  
+}
+.sejarah {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+p{
+  color :rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.row img{
+  width: auto;
+  height: 550px;
+}
+.whatis{
+  background: #D9D9D9;
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  
+  width: 1175px;
+  height: 252px;
+  left: 145px;
+  top: 1027px;
+  font-size: small;
+}
+.whatis img{
+  
+  width: 357px;
+  height: 185px;
+  left: 167px;
+  top: 1070px;
+}
+.whatis h1{
+  color:#5F5E5E !important;
+}
+
+/*footer{
+  width: 1634px;
+  height: 285px;
+  left: -112px;
+  top: 1302px;
+  background: #0A0A0A;
 }
