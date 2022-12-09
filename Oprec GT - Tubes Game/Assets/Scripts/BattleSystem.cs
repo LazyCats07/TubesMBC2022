@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
@@ -10,6 +11,9 @@ public class BattleSystem : MonoBehaviour
 
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
+
+    
+    public GameObject GameOver;
 
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
@@ -29,6 +33,7 @@ public class BattleSystem : MonoBehaviour
     {
         state = BattleState.START;
         StartCoroutine(SetupBattle());
+       
     }
 
 
@@ -49,16 +54,17 @@ public class BattleSystem : MonoBehaviour
 
         state = BattleState.PLAYERTURN;
         PlayerTurn();
+
     }
 
-    IEnumerator PlayerAttack()
+    void PlayerAttack()
     {
         bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
         enemyHUD.SetHP(enemyUnit.currentHP);
         dialogueText.text = "The attack is successful!";
 
-        yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(0f);
 
         if(isDead)
         {
@@ -69,6 +75,7 @@ public class BattleSystem : MonoBehaviour
         {
             state = BattleState.ENEMYTURN;
             StartCoroutine(EnemyTurn());
+        
         }
     }
 
@@ -104,13 +111,14 @@ public class BattleSystem : MonoBehaviour
         }
         else if(state == BattleState.LOST)
         {
-            dialogueText.text = "You were defeated.";
+            end();
         }
     }
 
     void PlayerTurn()
     {
         dialogueText.text = "Choose an action:";
+        
     }
 
     IEnumerator PlayerHeal()
@@ -124,6 +132,7 @@ public class BattleSystem : MonoBehaviour
 
         state = BattleState.ENEMYTURN;
         StartCoroutine(EnemyTurn());
+        
     }
 
     public void OnAttackButton()
@@ -131,7 +140,8 @@ public class BattleSystem : MonoBehaviour
         if(state != BattleState.PLAYERTURN)
             return;
 
-        StartCoroutine(PlayerAttack());
+        //StartCoroutine(PlayerAttack());
+        PlayerAttack();
     }
 
     public void OnHealButton()
@@ -140,5 +150,17 @@ public class BattleSystem : MonoBehaviour
             return;
 
         StartCoroutine(PlayerHeal());
+        
+    }
+
+    public void end()
+    {
+        GameOver.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void Title()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }
