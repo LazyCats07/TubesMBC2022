@@ -1,0 +1,15 @@
+body {
+  background-image: url(/assets/img/cs-bg.png);
+  background-size: 1500px;
+}
+
+h5,
+p,
+li {
+  color: white;
+}
+
+/* .title h1,
+span {
+  font-family: 'Racing Sans One', cursive;
+} */
