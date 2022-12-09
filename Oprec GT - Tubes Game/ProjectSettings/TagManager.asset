@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Batu
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,6 @@ TagManager:
   - name: Background
     uniqueID: 4220288607
     locked: 0
-  - name: New Layer
+  - name: Player
     uniqueID: 2797723839
     locked: 0
