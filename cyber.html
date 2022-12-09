@@ -7,24 +7,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tubes Rekruitasi Lab MBC - Home</title>
-    <link rel="stylesheet" href="/css/cyber.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a href="main.html" class="navbar-brand"><img src="assets/img/mbc logo.png" alt="mbc logo" width="200" /></a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="main.html"><b>Home</b></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><b>Profile</b></a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <b>Profile</b></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="asisten.html"><b>Dosen Pembimbing</b></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><b>Asisten</b></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><b>Calon Asisten</b></a>
+                </li>
+              </ul>
             </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <b>Division</b> </a>
               <ul class="dropdown-menu">
@@ -40,13 +55,8 @@
                 <li>
                   <a class="dropdown-item" href="gameTech.html"><b>GameTech</b></a>
                 </li>
-                <!-- <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
               </ul>
             </li>
-            <!-- <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li> -->
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Skill : Git, Python, Linux, etc" aria-label="Search" />
