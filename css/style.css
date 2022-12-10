@@ -24,27 +24,28 @@ https://getbootstrap.com/
   display: block;
 }
 
-.home h1 {
+/* Home Titles */
+.abt {
   color: #5f5e5e;
-  padding-left: 25px;
+  margin-left: 25px;
   padding-top: 15px;
   font-weight: bold;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 25px;
 }
-.home img {
+
+/* Home logo */
+.mbc-logo, .old-mbc-logo {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   margin-top: -50px;
 }
-
-p .sejarah-desc {
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 2.5;
-}
+/* .old-mbc-logo {
+  width: 50%;
+  margin-top: -20px;
+} */
 
 .sejarah {
   width: 80%;
@@ -56,12 +57,7 @@ p .sejarah-desc {
   margin-bottom: 20px;
   margin-top: -50px;
 }
-.sejarah h2 {
-  font-size: 36px;
-  font-weight: 600;
-  text-align: center;
-  padding-bottom: 50px;
-}
+
 .sejarah p {
   color: rgb(0, 0, 0);
   font-size: 18px;
@@ -75,11 +71,6 @@ p .sejarah-desc {
   /* margin-top: 5%; */
   display: flex;
   justify-content: center;
-}
-.row img {
-  width: auto;
-  height: 200px;
-  margin-top: -20px;
 }
 
 /* .whatis{
