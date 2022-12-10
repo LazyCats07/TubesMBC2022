@@ -1,0 +1,164 @@
+/* ngatur gambar */
+.lab{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.nama{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nama img{
+    width: 300px; 
+    height: 300px;
+}
+/* ngatur gambar */
+
+/* CyberSecurity */
+.cs{
+    
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0%;
+    transition: 0.67s;
+}
+.cs:hover{
+    background: rgba(0, 148, 216, 0.637);
+}
+.cs h2{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size:20px;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.67s;
+    text-align: cen;
+}
+.cs:hover h2{
+    opacity: 1;
+    bottom: 49%;
+    
+}
+/* CyberSecurity */
+
+/* BigData */
+.bigdata{
+    
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0%;
+    transition: 0.67s;
+}
+.bigdata:hover{
+    background: rgba(207, 0, 226, 0.603);
+}
+.bigdata h2{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size:20px;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.67s;
+    text-align: cen;
+}
+.bigdata:hover h2{
+    opacity: 1;
+    bottom: 49%;
+}
+/* BigData */
+
+/* GIS */
+.gis{
+    
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0%;
+    transition: 0.67s;
+}
+.gis:hover{
+    background: rgba(228, 50, 186, 0.74);
+}
+.gis h2{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size:20px;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.67s;
+    text-align: cen;
+}
+.gis:hover h2{
+    opacity: 1;
+    bottom: 49%;
+}
+/* GIS */
+
+/* GameTech */
+.gt{
+    
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left:0%;
+    transition: 0.67s;
+}
+.gt:hover{
+    background: rgba(239, 145, 37, 0.74);
+}
+.gt h2{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size:20px;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.67s;
+    text-align: cen;
+}
+.gt:hover h2{
+    opacity: 1;
+    bottom: 49%;
+}
+/* GameTech */
+
+/* Title Divisi */
+.divisi{
+    background-color: red;
+    color: #fff;
+}
+/* Title Divisi */
