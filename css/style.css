@@ -148,6 +148,11 @@ span {
 .divs-name {
   color: #ff1f1f;
   font-size: 80px;
+  margin-left: 50px;
+}
+
+.divisi {
+  font-size: 80px;
 }
 
 .cbs-button {
