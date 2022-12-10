@@ -6,9 +6,6 @@
   color: #ffffff;
 }
 
-img{
-  width: 280px;
-  height: 280px;
-  left: 583px;
-  top: 329px;
+.card img{
+  width: auto;
 }
