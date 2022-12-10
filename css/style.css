@@ -40,6 +40,11 @@ https://getbootstrap.com/
   margin-right: auto;
   width: 50%;
   margin: auto;
+  margin-top: -25px;
+}
+
+.desc-mbc{
+  margin-top: 25px;
 }
 /* .old-mbc-logo {
   width: 50%;
@@ -70,7 +75,11 @@ https://getbootstrap.com/
   /* margin-top: 5%; */
   display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 }
+
+
+
 
 /* .whatis{
   background: #D9D9D9;
