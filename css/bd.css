@@ -1,8 +1,6 @@
 body {
   background-image: url(/assets/img/bd-bg.png);
   background-size: 1800px;
-
-  background-repeat: no-repeat;
 }
 
 /* Style Title Divisi */
@@ -17,3 +15,5 @@ p,
 li {
   color: white;
 }
+
+

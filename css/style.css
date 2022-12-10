@@ -23,9 +23,10 @@ https://getbootstrap.com/
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 .home h1 {
   color: grey;
-  padding-left: 10px;
+  margin: 25px 0 0 25px;
   text-shadow: #5f5e5e;
 }
 .home img {

@@ -1,0 +1,22 @@
+body {
+  background-image: url(/assets/img/gt-bg.png);
+  background-size: 1520px;
+}
+
+h5,
+p,
+li {
+  color: white;
+}
+
+.start-btn {
+  margin-left: 10px;
+}
+
+.sticker {
+  font-size: 50px;
+}
+/* .title h1,
+  span {
+    font-family: 'Racing Sans One', cursive;
+  } */
