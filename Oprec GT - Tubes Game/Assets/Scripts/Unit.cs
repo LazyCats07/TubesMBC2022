@@ -15,15 +15,13 @@ public class Unit : MonoBehaviour
     public int maxMP;
     public int currentMP;
 
-    public bool TakeDamage(int damage)
-    {
-        currentHP -= damage;
+    // public bool TakeDamage(int damage)
+    // {
+    //     currentHP -= damage;
 
-        if(currentHP <= 0)
-            return true;
-        else
-            return false;
-    }
+    //     if(currentHP <= 0)
+    //         return true;
+    // }
 
     public void Heal(int amount)
     {
