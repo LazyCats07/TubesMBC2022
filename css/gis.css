@@ -1,10 +1,20 @@
 body {
   background-image: url('../assets/img/gis-bg.png');
-  background-size: 1500px;
+  background-size: cover;
 }
 
 h5,
 p,
 li {
   color: white;
+}
+
+/* gis_project css */
+.eiffel, .tult, .monas{
+  max-height: 360px;
+  max-width: 360px;
+}
+
+.download{
+  margin-left: 20px;
 }
