@@ -1,0 +1,19 @@
+body {
+  background-image: url('../assets/img/bd-bg.png');
+  background-size: 1800px;
+}
+
+/* Style Title Divisi */
+.title h1,
+span {
+  font-family: 'Racing Sans One', cursive;
+  color: white;
+}
+
+h5,
+p,
+li {
+  color: white;
+}
+
+
