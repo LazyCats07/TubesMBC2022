@@ -57,15 +57,15 @@
 }
 .cs:hover{
     background: rgba(0, 148, 216, 0.637);
-}
+} 
 .cs h2{
     width: 100%;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #fff;
-    font-size:25px;
-    top: 30%;
+    font-size: 20px;
+    top: 27%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -96,11 +96,11 @@
 .bigdata h2{
     width: 100%;
     font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    color: whitesmoke;
-    font-size:25px;
-    top: 30%;
+    color: #fff;
+    font-size: 20px;
+    top: 27%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -131,11 +131,11 @@
 .gis h2{
     width: 100%;
     font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #fff;
-    font-size:25px;
-    top: 30%;
+    font-size: 20px;
+    top: 27%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -169,8 +169,8 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #fff;
-    font-size:25px;
-    top: 30%;
+    font-size: 20px;
+    top: 27%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
