@@ -72,9 +72,12 @@ https://getbootstrap.com/
   /* margin-top: 5%; */
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
+.img{
+  padding: 10px 20px 10px 20px;
+}
 
 /* Footer */
 footer {
@@ -82,7 +85,7 @@ footer {
   margin-top: auto;
   background: black;
   bottom: 0;
-  height: 200px;
+  height: 160px;
   width: auto;
   color: white;
   padding-top: 20px;
