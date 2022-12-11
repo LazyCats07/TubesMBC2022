@@ -1,3 +1,9 @@
+.header{
+    text-align: center;
+    color: #5f5e5e;
+    font-weight: bold;
+}
+
 /* ngatur gambar */
 .lab{
     width: 80%;
@@ -5,7 +11,7 @@
     text-align: center;
     position: relative;
     box-sizing: content-box;
-    top: 10px;
+    top: 25px;
 }
 /* Title Divisi */
 .divisi{
@@ -15,6 +21,7 @@
     position: relative;
 }
 /* Title Divisi */
+
 .nama{
     flex-basis: 32%;
     border-radius: 10px;
@@ -50,15 +57,16 @@
 .cs h2{
     width: 100%;
     font-weight: 500;
+    font-family: 'Itim';
+    font-style: normal;
     color: #fff;
-    font-size:20px;
-    bottom: 0%;
+    font-size:25px;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
     transition: 0.67s;
-    text-align: cen;
 }
 .cs:hover h2{
     opacity: 1;
@@ -84,15 +92,16 @@
 .bigdata h2{
     width: 100%;
     font-weight: 500;
-    color: #fff;
-    font-size:20px;
-    bottom: 0%;
+    font-family: 'Itim';
+    font-style: normal;
+    color: whitesmoke;
+    font-size:25px;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
     transition: 0.67s;
-    text-align: cen;
 }
 .bigdata:hover h2{
     opacity: 1;
@@ -118,15 +127,16 @@
 .gis h2{
     width: 100%;
     font-weight: 500;
+    font-family: 'Itim';
+    font-style: normal;
     color: #fff;
-    font-size:20px;
-    bottom: 0%;
+    font-size:25px;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
     transition: 0.67s;
-    text-align: cen;
 }
 .gis:hover h2{
     opacity: 1;
@@ -152,15 +162,16 @@
 .gt h2{
     width: 100%;
     font-weight: 500;
+    font-family: 'Itim';
+    font-style: normal;
     color: #fff;
-    font-size:20px;
-    bottom: 0%;
+    font-size:25px;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
     transition: 0.67s;
-    text-align: cen;
 }
 .gt:hover h2{
     opacity: 1;
