@@ -26,6 +26,7 @@
   transition: 0.67s;
   flex-basis: 31%;
   border-radius: 15px;
+  transition: 1s;
 }
 .Title_pembina:hover{
   color: #ffffff;
