@@ -51,13 +51,13 @@ public class PlayerHealth : MonoBehaviour
         HpText.text = Mathf.Round(health) + "/" + Mathf.Round(maxHealth);
     }
 
-    public void giveDamage(int Damage)
-    {
-        player = GetComponent<LevelSystem>();
-        Damage = 20 * player.level;
-        health -= Damage;
-        lerpTimer = 0f;
-    }
+    // public void giveDamage(int Damage)
+    // {
+    //     player = GetComponent<LevelSystem>();
+    //     Damage = 20 * player.level;
+    //     health -= Damage;
+    //     lerpTimer = 0f;
+    // }
 
     // public void restoreHealth(float healAmount)
     // {

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2952258853787122381}
   - component: {fileID: 4223028999173000001}
-  - component: {fileID: 3907700583588001907}
   m_Layer: 0
   m_Name: Mage1
   m_TagString: Untagged
@@ -83,22 +82,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3907700583588001907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7437970181893439721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95f4c0a9413cc164a98deeff8a646783, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitName: Mage Skeleton
-  unitLevel: 1
-  damage: 6
-  maxHP: 30
-  currentHP: 30
-  maxMP: 0
-  currentMP: 0

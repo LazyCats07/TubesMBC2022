@@ -105,6 +105,7 @@ public class LevelSystem : MonoBehaviour
         backXpBar.fillAmount = 0f;
         currentXp = Mathf.RoundToInt(currentXp - requiredXp);
         GetComponent<PlayerHealth>().IncreaseHealth(level);
+        GetComponent<MpPlayer>().IncreaseMana(level);
         requiredXp += 15 * level;
         LevelText.text = "Level " + level;
     }

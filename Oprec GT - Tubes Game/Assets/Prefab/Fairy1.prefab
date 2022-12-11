@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8330921959270742594}
   - component: {fileID: 7061310149449714638}
-  - component: {fileID: 7881042411084298492}
   m_Layer: 0
   m_Name: Fairy1
   m_TagString: Untagged
@@ -83,22 +82,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7881042411084298492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4349664510971871334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95f4c0a9413cc164a98deeff8a646783, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitName: Fairy
-  unitLevel: 1
-  damage: 6
-  maxHP: 30
-  currentHP: 30
-  maxMP: 0
-  currentMP: 0

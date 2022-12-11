@@ -6318,13 +6318,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f497cd9c3e962cb478ceef8ba924cc64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 7778774746681291205, guid: 402140337e45e3245a18fcfe034bce52, type: 3}
-  enemyPrefab: {fileID: 5823153115803877792, guid: fc9030e60356e764cb80b6bfaa859b2f, type: 3}
+  playerPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 0}
   GameOver: {fileID: 1471450678}
-  Win: {fileID: 0}
-  playerBattleStation: {fileID: 1586907615}
-  enemyBattleStation: {fileID: 862572158}
-  dialogueText: {fileID: 233882683}
+  Win: {fileID: 815424116}
+  playerBattleStation: {fileID: 0}
+  enemyBattleStation: {fileID: 0}
+  enemyUnit: {fileID: 0}
+  dialogueText: {fileID: 0}
   playerHUD: {fileID: 566026610}
   enemyHUD: {fileID: 2111786380}
   state: 0
