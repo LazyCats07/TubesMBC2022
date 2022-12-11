@@ -5,19 +5,60 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Talkmenu : MonoBehaviour
-{
-    [SerializeField]
-    GameObject TalkMenu;
+{   
 
-    public void Talk()
+    public GameObject TalkMenu;
+
+
+    public void talk()
     {
         TalkMenu.SetActive(true);
         Time.timeScale = 0f;
     }
-    public void Resume()
+    public void No1()
     {
         TalkMenu.SetActive(false);
         Time.timeScale = 1f;
+    }
+
+    public void Yes1()
+    {
+        SceneManager.LoadScene("Tutorial_Roaming");
+    }
+
+    public void Yes2()
+    {
+        SceneManager.LoadScene("Area2_Roaming");
+    }
+
+    public void Yes3()
+    {
+        SceneManager.LoadScene("Area3_Roaming");
+    }
+
+    public void Yes32()
+    {
+        SceneManager.LoadScene("Area3_Roaming 2");
+    }
+
+    public void Yes33()
+    {
+        SceneManager.LoadScene("Area3_Roaming 3");
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void Scene4()
+    {
+        SceneManager.LoadScene("DeadHL");
+    }
+
+    public void Ending()
+    {
+        SceneManager.LoadScene("ED_Cutscene");
     }
 
 }

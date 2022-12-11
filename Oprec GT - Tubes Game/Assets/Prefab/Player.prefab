@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716984052823886007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 23.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.3452, y: 18.6, z: 0}
+  m_LocalScale: {x: 1.2396, y: 1.2396, z: 1.2396}
   m_Children: []
   m_Father: {fileID: 7389991623612550820}
   m_RootOrder: 0
@@ -91,6 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7389991623612550820}
+  - component: {fileID: 8804373209622231968}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -113,3 +114,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8804373209622231968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7778774746681291205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36a2c540bda4644aa759f6df2325b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitName: Ren
+  unitLevel: 1
+  damage: 10
+  maxHP: 50
+  currentHP: 50

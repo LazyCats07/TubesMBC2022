@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5171427144953708816}
   - component: {fileID: 5171427144953708817}
-  - component: {fileID: 5171427144953708822}
+  - component: {fileID: 4722895585266647786}
   m_Layer: 0
   m_Name: Azathoth
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5171427144953708822
+--- !u!114 &4722895585266647786
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,13 +92,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5171427144953708823}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95f4c0a9413cc164a98deeff8a646783, type: 3}
+  m_Script: {fileID: 11500000, guid: c36a2c540bda4644aa759f6df2325b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Azathoth
-  unitLevel: 10
-  damage: 60
-  maxHP: 400
-  currentHP: 400
-  maxMP: 0
-  currentMP: 0
+  unitLevel: 5
+  damage: 50
+  maxHP: 100
+  currentHP: 100
