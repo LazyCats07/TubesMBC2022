@@ -1,20 +1,31 @@
-from flask import Flask
-from flask import render_template,flash
-import data as data
-import requests 
-import database as database
-from flask_sqlalchemy import SQLAlchemy
-
-#Buat masang Database.
-# app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@localhost/tubesmbc'
-# app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-# app.secret_key = 'secret string'
-# db = SQLAlchemy(app)
+from flask import Flask,request,render_template
+from flask import request
+import data_pembimbing as dt
+import loadjsoncaas as lj
+import pickle
+import numpy as np
 
 
-#Buat Route Doang.
 app = Flask(__name__)
-@app.route("/profil")
-def hello(): 
-    return data.obj
+model = pickle.load(open('dataset.pkl','rb'))
+simi = pickle.load(open('similarity.pkl','rb'))
+ml_list = np.array(model['Skill'])
+@app.route('/mlnya',methods=['POST'])
+def recomen(skill):
+     index = model[model['title'] == skill].index[0]
+     distances = sorted(list(enumerate(simi[index])), reverse=True, key=lambda x: x[1])
+     l=[]
+     for i in distances[1:6]:
+          l.append("{}".format(model.iloc[i[0]].title))
+     return(1)
+ 
+@app.route('/data')
+def caas():
+    return lj.g
+@app.route('/pembimbing')
+def pembimbing(): 
+    return dt.obj
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
