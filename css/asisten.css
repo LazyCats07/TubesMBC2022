@@ -67,7 +67,7 @@
     transition: 0.67s;
 }
 .bigdata:hover{
-    background: rgba(207, 0, 226, 0.603);
+    background: rgba(6, 253, 101, 0.603);
 }
 .bigdata h2{
     width: 100%;
@@ -162,3 +162,15 @@
     color: #fff;
 }
 /* Title Divisi */
+
+@media(max-width: 991px){
+    .lab .nama {
+      flex: 0 0 calc(50% - 30px);
+    }
+  }
+@media(max-width: 767px){
+    .lab .nama {
+      flex: 0 0 calc(100% - 30px);
+    }	
+  }
+  
