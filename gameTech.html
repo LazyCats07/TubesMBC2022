@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tubes Rekruitasi Lab MBC - Home</title>
+    <!-- Script JavaScript -->
+    <script type='text/javascript' src="js/index.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Font -->
@@ -64,8 +66,9 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Skill : Git, Python, Linux, etc" aria-label="Search" />
-          <button class="btn btn-outline-danger" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Skill : Git, Python, Linux, etc"
+            aria-label="Search" id="inSearch" />
+          <button class="btn btn-outline-danger" type="submit" onclick="search()">Search</button>
         </form>
       </div>
     </div>
