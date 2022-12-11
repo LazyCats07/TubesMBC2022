@@ -1,3 +1,7 @@
+/* * {
+    font-family: 'Montserrat', sans-serif;
+} */
+
 .header{
     text-align: center;
     color: #5f5e5e;
@@ -57,7 +61,7 @@
 .cs h2{
     width: 100%;
     font-weight: 500;
-    font-family: 'Itim';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #fff;
     font-size:25px;
@@ -92,7 +96,7 @@
 .bigdata h2{
     width: 100%;
     font-weight: 500;
-    font-family: 'Itim';
+  font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: whitesmoke;
     font-size:25px;
@@ -127,7 +131,7 @@
 .gis h2{
     width: 100%;
     font-weight: 500;
-    font-family: 'Itim';
+  font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #fff;
     font-size:25px;
@@ -162,7 +166,7 @@
 .gt h2{
     width: 100%;
     font-weight: 500;
-    font-family: 'Itim';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #fff;
     font-size:25px;
