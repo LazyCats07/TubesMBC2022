@@ -13,7 +13,7 @@ public class Talkmenu : MonoBehaviour
     public void talk()
     {
         TalkMenu.SetActive(true);
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
     }
     public void No1()
     {
@@ -24,41 +24,49 @@ public class Talkmenu : MonoBehaviour
     public void Yes1()
     {
         SceneManager.LoadScene("Tutorial_Roaming");
+        Time.timeScale = 1f;
     }
 
     public void Yes2()
     {
         SceneManager.LoadScene("Area2_Roaming");
+        Time.timeScale = 1f;
     }
 
     public void Yes3()
     {
         SceneManager.LoadScene("Area3_Roaming");
+        Time.timeScale = 1f;
     }
 
     public void Yes32()
     {
         SceneManager.LoadScene("Area3_Roaming 2");
+        Time.timeScale = 1f;
     }
 
     public void Yes33()
     {
         SceneManager.LoadScene("Area3_Roaming 3");
+        Time.timeScale = 1f;
     }
 
     public void Exit()
     {
         SceneManager.LoadScene("Main Menu");
+        Time.timeScale = 1f;
     }
 
     public void Scene4()
     {
         SceneManager.LoadScene("DeadHL");
+        Time.timeScale = 1f;
     }
 
     public void Ending()
     {
         SceneManager.LoadScene("ED_Cutscene");
+        Time.timeScale = 1f;
     }
 
 }
