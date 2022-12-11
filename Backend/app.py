@@ -1,4 +1,4 @@
-from flask import Flask,request,render_template
+from flask import Flask,request,render_template,jsonify
 from flask import request
 import data_pembimbing as dt
 import loadjsoncaas as lj
@@ -16,8 +16,12 @@ def recomen(skill):
      distances = sorted(list(enumerate(simi[index])), reverse=True, key=lambda x: x[1])
      l=[]
      for i in distances[1:6]:
-          l.append("{}".format(model.iloc[i[0]].title))
+          data = l.append("{}".format(model.iloc[i[0]].title))
+          result = jsonify(data=data)
+          return(result)
      return(1)
+ 
+ 
  
 @app.route('/data')
 def caas():
