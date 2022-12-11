@@ -1,0 +1,10 @@
+body {
+  background-image: url('../assets/img/gis-bg.png');
+  background-size: 1500px;
+}
+
+h5,
+p,
+li {
+  color: white;
+}
