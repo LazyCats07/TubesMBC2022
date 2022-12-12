@@ -16,11 +16,11 @@ option = st.selectbox("Input Skill : ",(ml_list))
 @app.route('/mlnya',methods=['POST','GET'])
 def recomen(skill):
     st.table(df) 
-    index = model[model['title'] == skill].index[0]
+    index = model[model['Skill'] == skill].index[0]
     distances = sorted(list(enumerate(simi[index])), reverse=True, key=lambda x: x[1])
     l=[]
     for i in distances[1:6]:
-        l.append("{}".format(model.iloc[i[0]].title))
+        l.append("{}".format(model.iloc[i[0]].skill))
     return(1)
 
 if st.button('Rekomendasi Asisten'):
