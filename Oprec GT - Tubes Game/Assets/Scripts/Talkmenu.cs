@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -41,13 +42,13 @@ public class Talkmenu : MonoBehaviour
 
     public void Yes32()
     {
-        SceneManager.LoadScene("Area3_Roaming 2");
+        SceneManager.LoadScene("Area3_Roaming2");
         Time.timeScale = 1f;
     }
 
     public void Yes33()
     {
-        SceneManager.LoadScene("Area3_Roaming 3");
+        SceneManager.LoadScene("Area3_Roaming3");
         Time.timeScale = 1f;
     }
 
@@ -66,6 +67,12 @@ public class Talkmenu : MonoBehaviour
     public void Ending()
     {
         SceneManager.LoadScene("ED_Cutscene");
+        Time.timeScale = 1f;
+    }
+
+    public void Area2()
+    {
+        SceneManager.LoadScene("Area2_Roaming2");
         Time.timeScale = 1f;
     }
 
