@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerRoamAnim : MonoBehaviour
 {
@@ -23,7 +25,7 @@ public class PlayerRoamAnim : MonoBehaviour
     void Update()
     {
         if(Input.GetKey(KeyCode.LeftShift))
-            speed = 2f;
+            speed = 10f;
         else
             speed = 2f;
         
@@ -143,4 +145,59 @@ public class PlayerRoamAnim : MonoBehaviour
             MoveLeft();
         }
     }
+
+    public void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collider.tag == "Arrow_To_Area2_1")
+        {
+            SceneManager.LoadScene("Area2_Roaming");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Area2_2")
+        {
+            SceneManager.LoadScene("Area2_Roaming2");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Area3_1")
+        {
+            SceneManager.LoadScene("Area3_Roaming");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Area3_2")
+        {
+            SceneManager.LoadScene("Area3_Roaming2");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Area4")
+        {
+            SceneManager.LoadScene("HuangLong_Cutscene");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Azatoth")
+        {
+            SceneManager.LoadScene("Area5_Combat");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Mob_area1")
+        {
+            SceneManager.LoadScene("Tutorial_Combat");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Mob_area2_2")
+        {
+            SceneManager.LoadScene("Area2_Combat");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Mob_area3_1")
+        {
+            SceneManager.LoadScene("Area3_Combat1");
+            Time.timeScale = 1f;
+        }
+        // if(collider.tag == "Mob_area3_2")
+        // {
+        //     SceneManager.LoadScene("Area3_Combat2");
+        //     Time.timeScale = 1f;
+        // }
+    }
+
 }

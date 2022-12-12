@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Batu
+  - Arrow_To_Area2_2
+  - Arrow_To_Area3_1
+  - Mob_area2_2
+  - Arrow_To_Area3_2
+  - Mob_area3_1
+  - Mob_area3_2
+  - Arrow_To_Area4
+  - Arrow_To_Azatoth
+  - Arrow_To_Area2_1
+  - Mob_area1
   layers:
   - Default
   - TransparentFX
