@@ -3,6 +3,7 @@ const search = async() => {
   let inf = await data()
   let listed = () => {
     const list = []
+    // Creating the text for paragraph
     try{
       const data = inf[dataSearch].name
       data.forEach(nama => {
@@ -20,9 +21,9 @@ const search = async() => {
   const parag = document.createElement('p')
   node.forEach(l => {
     parag.appendChild(l)
-  })
-  const element = document.getElementById('header')
-  element.appendChild(parag)
+  }) // output: <p> [text] </p>
+  const element = document.getElementById('header') // need to create id for section header for every html
+  element.appendChild(parag) // put the parag output on the end of header id
   console.log(listed())
 }
 
