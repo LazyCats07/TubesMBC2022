@@ -192,6 +192,12 @@
 }
 /* Title Divisi */
 
+/* Sumber Foto */
+.resource{
+    text-align: center;
+    opacity: 0.5;
+}
+
 @media(max-width: 991px){
     .lab .nama {
       flex: 0 0 calc(50% - 30px);
