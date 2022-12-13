@@ -3,6 +3,8 @@
 Ini untuk bootstrap nya, liat docs bootstrap untuk css code nya, atau bikin sendiri juga bisa
 https://getbootstrap.com/
 */
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
 html {
   height: 100%;
 }
