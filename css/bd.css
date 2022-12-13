@@ -1,3 +1,9 @@
+.header{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
 body {
   background-image: url('../assets/img/bd-bg.png');
   background-size: cover;
