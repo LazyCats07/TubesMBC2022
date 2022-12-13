@@ -155,7 +155,7 @@ span {
 
 .divs-name {
   color: #ff1f1f;
-  font-size: 80px;
+  font-size: 125px;
   margin-left: 50px;
 }
 
@@ -182,4 +182,15 @@ span {
   margin-left: 50px;
   margin-right: 100px;
   color: white;
+}
+
+.resource a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.resource a :hover {
+  text-decoration-line: none;
+  color: rgb(0, 17, 124);
+  font-style: italic;
 }
