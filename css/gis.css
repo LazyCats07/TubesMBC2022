@@ -96,3 +96,9 @@ li {
   font-size: 45px;
   color: darkorchid;
 }
+
+.judul{
+	text-align: center;
+    color: white;
+    font-weight: bold;
+}
