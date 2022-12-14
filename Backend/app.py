@@ -1,42 +1,56 @@
-from flask import Flask,request,render_template
-from flask import request
-import data_pembimbing as dt
-import loadjsoncaas as lj
-import pickle
-import numpy as np
-import streamlit as st
-import pandas as pd
+import psycopg2
+from flask import Flask,jsonify,request,render_template
+from datetime import datetime
+from flask_restful import Api,Resource,reqparse,abort
 
 app = Flask(__name__)
-model = pickle.load(open('dataset.pkl','rb'))
-simi = pickle.load(open('similarity.pkl','rb'))
-ml_list = np.array(model['Skill'])
-option = st.selectbox("Input Skill : ",(ml_list))
+api = Api(app)
+con = psycopg2.connect(         # buat connect ke database di postgre
+        host = "192.168.0.101",
+        port = '8888',
+        database = 'postgres',
+        user = 'zaidan',
+        password = 'zaidan123',
+    )
 
-@app.route('/mlnya',methods=['POST','GET'])
-def recomen(skill):
-    st.table(df) 
-    index = model[model['Skill'] == skill].index[0]
-    distances = sorted(list(enumerate(simi[index])), reverse=True, key=lambda x: x[1])
-    l=[]
-    for i in distances[1:6]:
-        l.append("{}".format(model.iloc[i[0]].skill))
-    return(1)
+class profil(Resource):
+    def get(self): 
+        try :
+            sql = con.cursor()      # akses database yang udah tersambung dari postgre & nyimpen semua datanya
+            sql.execute("""SELECT * FROM datafix""")
+            call = sql.fetchall()      # ngambil semua hasil query data dan mengembalikannya kedalam bentuk tuple
+            result = jsonify(profil=call)     # nyimpen data api kedalam json
+            result.status_code = 200
+            return(result)
+        except Exception as err : 
+            print(err)
+            result = jsonify("gagal fetch")
+            result.status_code = 400
+            return(result)
+        finally : 
+            sql.close()
 
-if st.button('Rekomendasi Asisten'):
-    st.write('Skill terkait : ')
-    # st.write(movie_recommend(option),show_url(option))
-    df = pd.DataFrame({
-        'Asisten terkait skill': recomen(option)
-    })
+class dosen(Resource):
+    def get(self): 
+        try :
+            sql = con.cursor()
+            sql.execute("""SELECT * FROM pembina""")
+            call = sql.fetchall()
+            result = jsonify(dosen=call)
+            result.status_code = 200
+            return(result)
+        except Exception as err : 
+            print(err)
+            result = jsonify("gagal fetch")
+            result.status_code = 400
+            return(result)
+        finally : 
+            sql.close()
 
-@app.route('/data')
-def caas():
-    return lj.g
-@app.route('/pembimbing')
-def pembimbing(): 
-    return dt.obj
+@app.route('/')
+def home():
+    return '<h1>Tubes MBC</h1><br>Link Data Asisten dan Caas : tambahin /profil<br>Link Data Pembina Lab : tambahin /dosen'
 
-
-if __name__ == '__main__':
-    app.run(host = '192.168.0.101', port = 5000, debug=True)
+api.add_resource(profil,"/profil",endpoint = "profil", methods=['GET'])
+api.add_resource(dosen,"/dosen",endpoint = "dosen", methods=['GET'])
+app.run(host = "192.168.0.101", port = "5000")
