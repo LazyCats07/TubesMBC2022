@@ -1170,8 +1170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 2034795376}
-  speed: 0
-  distanceBetween: 0
+  speed: 1
+  distanceBetween: 4
 --- !u!1 &231354186
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,8 +2799,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 2034795376}
-  speed: 0
-  distanceBetween: 0
+  speed: 1
+  distanceBetween: 4
 --- !u!1 &499820805
 GameObject:
   m_ObjectHideFlags: 0
@@ -4357,8 +4357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 2034795376}
-  speed: 0
-  distanceBetween: 0
+  speed: 1
+  distanceBetween: 4
 --- !u!1 &687170379
 GameObject:
   m_ObjectHideFlags: 0
@@ -9256,8 +9256,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 2034795376}
-  speed: 0
-  distanceBetween: 0
+  speed: 1
+  distanceBetween: 4
 --- !u!1 &1658158235
 GameObject:
   m_ObjectHideFlags: 0
@@ -10429,8 +10429,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 2034795376}
-  speed: 0
-  distanceBetween: 0
+  speed: 1
+  distanceBetween: 4
 --- !u!1 &1916752826
 GameObject:
   m_ObjectHideFlags: 0

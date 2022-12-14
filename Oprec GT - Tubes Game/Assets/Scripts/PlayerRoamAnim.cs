@@ -240,16 +240,18 @@ public class PlayerRoamAnim : MonoBehaviour
         
         if(collider.tag == "Coin")
         {
+           
             Destroy(collider.gameObject);
             Collectables.instance.Addcoin();
 
-            //Coins += 1;
-            //string ItemType = collider.gameObject.GetComponent<Collectables>().ItemType;
-            //print("Collected a " + ItemType);
-            //items.Add(ItemType);
-            //print("Inventory Length: " + items.Count);
+            // Coins += 1;
+            // string ItemType = collider.gameObject.GetComponent<Collectables>().ItemType;
+            // print("Collected a " + ItemType);
+            // items.Add(ItemType);
+            // print("Inventory Length: " + items.Count);
             // MyCoinText.text = "" + Coins;
         }
+
     }
 
 }
