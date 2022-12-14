@@ -1,0 +1,245 @@
+{
+    "adobe illustrator": {
+      "name": [
+        "Aisha Hijranie Putrie",
+        "Yoga Marta",
+        "Fellica Clara Cindy",
+        "Azima Azzahra",
+        "Geva Almer Hariri"
+      ]
+    },
+    "adobe photoshop": {
+      "name": [
+        "Revin Pasya",
+        "Yoga Marta",
+        "Moch Firza Yudistira Meizia",
+        "Aisha Hijranie Putrie",
+        "Muhammad Nizal Adithya"
+      ]
+    },
+    "arcgis": {
+      "name": [
+        "Cantika Candra",
+        "Satria Wasisa",
+        "Afif Rizki",
+        "Devan Ramadhana",
+        "Retno Fauziah Istiqomah"
+      ]
+    },
+    "blender": {
+      "name": [
+        "Mahardika Hanif Briantono",
+        "Divany Maulidyna Putry",
+        "Yulintyandra Puja Antanita",
+        "Natasya Nurul",
+        "A. Malvin Nugraha"
+      ]
+    },
+    "c": {
+      "name": [
+        "Dias Daffa Wiwaha",
+        "Afif Rizki",
+        "Muhammad Hilmi Izzulhaq",
+        "Retno Fauziah Istiqomah",
+        "Satria Wasisa"
+      ]
+    },
+    "c#": {
+      "name": [
+        "Revin Pasya",
+        "Yoga Marta",
+        "Moch Firza Yudistira Meizia",
+        "Aisha Hijranie Putrie",
+        "Muhammad Nizal Adithya"
+      ]
+    },
+    "cmd": {
+      "name": [
+        "M. Zidan Fadilah",
+        "Satya Adhi",
+        "Nita Nur Qarinah",
+        "Fatma Nur Afifah",
+        "Satria Winekas Herlambang"
+      ]
+    },
+    "cryptography": {
+      "name": [
+        "Ganesh Mahesa Aditya",
+        "Afif Rizki",
+        "Zaidan Muhammad Mahdi",
+        "Satria Wasisa",
+        "Muhammad Hilmi Izzulhaq"
+      ]
+    },
+    "css": {
+      "name": [
+        "Virginia Iskandar",
+        "Natasya Nurul",
+        "Fadilah Putri Sukoco",
+        "Divany Maulidyna Putry",
+        "Yulintyandra Puja Antanita"
+      ]
+    },
+    "deep learning": {
+      "name": [
+        "Nasrullah Pandu Dewantara",
+        "M. Zidan Fadilah",
+        "Rayhan Dhafi",
+        "Satya Adhi",
+        "Fadly Firmansyah Putra"
+      ]
+    },
+    "figma": {
+      "name": [
+        "Nasrullah Pandu Dewantara",
+        "Rafli Aulia Hafiz",
+        "Rayhan Dhafi",
+        "Nita Nur Qarinah",
+        "Fatma Nur Afifah"
+      ]
+    },
+    "forensics": {
+      "name": [
+        "Nurul Febri Annisa",
+        "Devan Ramadhana",
+        "Zaidan Muhammad Mahdi",
+        "Rafi Andhika Putra Pratama",
+        "Rika Jesicha"
+      ]
+    },
+    "git": {
+      "name": [
+        "Rayhan Dhafi",
+        "Fatma Nur Afifah",
+        "M. Zidan Fadilah",
+        "Rafi Andhika Putra Pratama",
+        "Fadly Firmansyah Putra"
+      ]
+    },
+    "html": {
+      "name": [
+        "Rayhan Dhafi",
+        "Fatma Nur Afifah",
+        "M. Zidan Fadilah",
+        "Rafi Andhika Putra Pratama",
+        "Fadly Firmansyah Putra"
+      ]
+    },
+    "java": {
+      "name": [
+        "Fatma Nur Afifah",
+        "Nasrullah Pandu Dewantara",
+        "M. Zidan Fadilah",
+        "Indah Ratu Aulia Ritonga",
+        "Satria Winekas Herlambang"
+      ]
+    },
+    "linux": {
+      "name": [
+        "Nurul Febri Annisa",
+        "Devan Ramadhana",
+        "Zaidan Muhammad Mahdi",
+        "Rafi Andhika Putra Pratama",
+        "Rika Jesicha"
+      ]
+    },
+    "machine learning": {
+      "name": [
+        "Rayhan Dhafi",
+        "Fatma Nur Afifah",
+        "M. Zidan Fadilah",
+        "Rafi Andhika Putra Pratama",
+        "Fadly Firmansyah Putra"
+      ]
+    },
+    "numpy": {
+      "name": [
+        "Ganesh Mahesa Aditya",
+        "Satria Wasisa",
+        "Muhammad Hilmi Izzulhaq",
+        "Rika Jesicha",
+        "Nurul Febri Annisa"
+      ]
+    },
+    "programming": {
+      "name": [
+        "M. Zidan Fadilah",
+        "Satya Adhi",
+        "Nita Nur Qarinah",
+        "Fatma Nur Afifah",
+        "Satria Winekas Herlambang"
+      ]
+    },
+    "pwning": {
+      "name": [
+        "Virginia Iskandar",
+        "Natasya Nurul",
+        "Fadilah Putri Sukoco",
+        "Divany Maulidyna Putry",
+        "Yulintyandra Puja Antanita"
+      ]
+    },
+    "python": {
+      "name": [
+        "Muhammad Hilmi Izzulhaq",
+        "Satria Wasisa",
+        "Dias Daffa Wiwaha",
+        "Cantika Candra",
+        "Nurul Febri Annisa"
+      ]
+    },
+    "qgis": {
+      "name": [
+        "Fellica Clara Cindy",
+        "Moch Firza Yudistira Meizia",
+        "Yoga Marta",
+        "Azima Azzahra",
+        "Aisha Hijranie Putrie"
+      ]
+    },
+    "reverse engineering": {
+      "name": [
+        "Afif Rizki",
+        "Satria Wasisa",
+        "Cantika Candra",
+        "Dias Daffa Wiwaha",
+        "Zaidan Muhammad Mahdi"
+      ]
+    },
+    "sql": {
+      "name": [
+        "Nurul Febri Annisa",
+        "Devan Ramadhana",
+        "Zaidan Muhammad Mahdi",
+        "Muhammad Rafi Ediananta",
+        "Rika Jesicha"
+      ]
+    },
+    "tensorflow": {
+      "name": [
+        "M. Zidan Fadilah",
+        "Indah Ratu Aulia Ritonga",
+        "Fadly Firmansyah Putra",
+        "Rayhan Dhafi",
+        "Retno Fauziah Istiqomah"
+      ]
+    },
+    "uiux": {
+      "name": [
+        "Fadly Firmansyah Putra",
+        "Fatma Nur Afifah",
+        "Rayhan Dhafi",
+        "Hubert Igor Haryatmo Tandri",
+        "Nasrullah Pandu Dewantara"
+      ]
+    },
+    "unity": {
+      "name": [
+        "Azima Azzahra",
+        "Aisha Hijranie Putrie",
+        "Moch Firza Yudistira Meizia",
+        "Revin Pasya",
+        "Muhammad Nizal Adithya"
+      ]
+    }
+  }
