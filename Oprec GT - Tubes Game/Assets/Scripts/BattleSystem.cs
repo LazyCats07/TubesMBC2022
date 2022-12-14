@@ -10,9 +10,11 @@ public class BattleSystem : MonoBehaviour
 {
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
+    public GameObject enemyPrefab2;
     public GameObject Win;
     public GameObject GameOver;
     public GameObject Skill;
+    
 
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
@@ -26,18 +28,25 @@ public class BattleSystem : MonoBehaviour
     public BattleHUD enemyHUD;
 
     public BattleState state;
+    
 
     void Start()
     {
+        
         state = BattleState.START;
-        StartCoroutine(SetupBattle());    
+        //StartCoroutine(SetupBattle());
+        SetupBattle();
+            
     }
 
-    IEnumerator SetupBattle()
+    void SetupBattle()
     {  
+        state = BattleState.PLAYERTURN;
+        PlayerTurn();
+
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
-
+        
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Unit>();
 
@@ -46,20 +55,19 @@ public class BattleSystem : MonoBehaviour
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
 
-        yield return new WaitForSeconds(2f);
+        //yield return new WaitForSeconds(2f);
 
-        state = BattleState.PLAYERTURN;
-        PlayerTurn();
+        
     }
 
-    IEnumerator PlayerAttack()
+    void PlayerAttack()
     {
         bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
        
         enemyHUD.SetHP(enemyUnit.currentHP);
         dialogueText.text = "The attack is successful!";
 
-        yield return new WaitForSeconds(1f); 
+        //yield return new WaitForSeconds(1f); 
 
         if(isDead)
         {
@@ -69,22 +77,23 @@ public class BattleSystem : MonoBehaviour
         else
         {
             state = BattleState.ENEMYTURN;
-            StartCoroutine(EnemyTurn());
+            //StartCoroutine(EnemyTurn());
+            EnemyTurn();
         }
 
     }
 
-    IEnumerator EnemyTurn()
+    void EnemyTurn()
     {
         dialogueText.text = enemyUnit.unitName + " Attacks!";
 
-        yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(1f);
 
         bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
 
         playerHUD.SetHP(playerUnit.currentHP);
 
-        yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(1f);
 
         if(isDead)
         {
@@ -104,6 +113,9 @@ public class BattleSystem : MonoBehaviour
         {
             Win.SetActive(true);
             Time.timeScale = 0f;
+            Collectables.instance.Addcoin();
+            SetupBattle();
+        
         }
         else if(state == BattleState.LOST)
         {
@@ -122,7 +134,8 @@ public class BattleSystem : MonoBehaviour
         if(state != BattleState.PLAYERTURN)
             return;
 
-        StartCoroutine(PlayerAttack());
+        //StartCoroutine(PlayerAttack());
+        PlayerAttack();
     }
 
     public void onSkillButton()
@@ -137,19 +150,20 @@ public class BattleSystem : MonoBehaviour
     {
         if(state != BattleState.PLAYERTURN)
             return;
-        StartCoroutine(PlayerSkill());
+        //StartCoroutine(PlayerSkill());
+        PlayerSkill();
         Skill.SetActive(false);
         Time.timeScale = 1f;
     }
 
-    IEnumerator PlayerSkill()
+    void PlayerSkill()
     {
         bool isDead = enemyUnit.TakeSkill(playerUnit.damage);
        
         enemyHUD.SetHP(enemyUnit.currentHP);
         dialogueText.text = "The attack is successful!";
 
-        yield return new WaitForSeconds(1f); 
+        //yield return new WaitForSeconds(1f); 
 
         if(isDead)
         {
@@ -159,21 +173,23 @@ public class BattleSystem : MonoBehaviour
         else
         {
             state = BattleState.ENEMYTURN;
-            StartCoroutine(EnemyTurn());
+            //StartCoroutine(EnemyTurn());
+            EnemyTurn();
         }
     }
 
-    IEnumerator PlayerHeal()
+    void PlayerHeal()
     {
         playerUnit.Heal(20);
 
         playerHUD.SetHP(playerUnit.currentHP);
         dialogueText.text = "You feel refreshed";
 
-        yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(1f);
 
         state = BattleState.ENEMYTURN;
-        StartCoroutine(EnemyTurn());
+        //StartCoroutine(EnemyTurn());
+        EnemyTurn();
     }
 
     public void onHealButton()
@@ -182,7 +198,8 @@ public class BattleSystem : MonoBehaviour
             return;
         Skill.SetActive(false);
         Time.timeScale = 1f;
-        StartCoroutine(PlayerHeal());
+        //StartCoroutine(PlayerHeal());
+        PlayerHeal();
     }
 
     public void onEndTurnButton()
@@ -190,7 +207,8 @@ public class BattleSystem : MonoBehaviour
         if(state != BattleState.PLAYERTURN)
             return;
         state = BattleState.ENEMYTURN;
-        StartCoroutine(EnemyTurn());
+        //StartCoroutine(EnemyTurn());
+        EnemyTurn();
     }
 
 

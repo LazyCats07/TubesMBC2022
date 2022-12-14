@@ -1,4 +1,3 @@
-using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +8,11 @@ public class Talkmenu : MonoBehaviour
 {   
 
     public GameObject TalkMenu;
+    public GameObject bg1;
+    public GameObject bg2;
+    public GameObject Battle;
+    public GameObject Skill;
+    public GameObject Win;
 
 
     public void talk()
@@ -24,8 +28,12 @@ public class Talkmenu : MonoBehaviour
 
     public void Yes1()
     {
-        SceneManager.LoadScene("Tutorial_Roaming");
-        Time.timeScale = 1f;
+        TalkMenu.SetActive(false);
+        Time.timeScale = 0f;
+        Skill.SetActive(false);
+        Time.timeScale = 0f;
+        Battle.SetActive(false);
+        Time.timeScale = 0f;
     }
 
     public void Yes2()
@@ -76,4 +84,19 @@ public class Talkmenu : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void OnWinBUtton()
+    {
+        TalkMenu.SetActive(false);
+        Time.timeScale = 0f;
+        Skill.SetActive(false);
+        Time.timeScale = 0f;
+        Battle.SetActive(false);
+        Time.timeScale = 0f;
+        Win.SetActive(false);
+        Time.timeScale = 0f;
+        bg1.SetActive(true);
+        Time.timeScale = 1f;
+        bg2.SetActive(true);
+        Time.timeScale = 1f;
+    }
 }

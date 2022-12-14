@@ -63,6 +63,6 @@ public class OP : MonoBehaviour
     {
         Frame6.SetActive(false);
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Tutorial_Roaming");
+        SceneManager.LoadScene("Tutorial_RoamingAwal");
     }
 }

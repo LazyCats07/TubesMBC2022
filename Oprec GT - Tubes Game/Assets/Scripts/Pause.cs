@@ -8,6 +8,10 @@ public class Pause : MonoBehaviour
 {
     [SerializeField]
     GameObject PauseMenu;
+    [SerializeField]
+    GameObject bg1;
+    [SerializeField]
+    GameObject bg2;
     
     
 
@@ -19,6 +23,10 @@ public class Pause : MonoBehaviour
     public void Resume()
     {
         PauseMenu.SetActive(false);
+        Time.timeScale = 0f;
+        bg1.SetActive(true);
+        Time.timeScale = 1f;
+        bg2.SetActive(true);
         Time.timeScale = 1f;
     }
     public void Title()
@@ -29,10 +37,14 @@ public class Pause : MonoBehaviour
    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Tab))
         {
-         PauseMenu.SetActive(false);
-         Time.timeScale = 1f;
+            PauseMenu.SetActive(false);
+            Time.timeScale = 0f;
+            bg1.SetActive(true);
+            Time.timeScale = 1f;
+            bg2.SetActive(true);
+            Time.timeScale = 1f;
         }
     }
 

@@ -1,3 +1,4 @@
+using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,15 @@ public class PlayerRoamAnim : MonoBehaviour
     bool facingRight = true, facingLeft = true;
     float velX,Vely,speed=1f;
 
+    public GameObject Battle;
+    public GameObject Battle2;
+    public GameObject bg1;
+    public GameObject bg2;
+    //public List<string> items;
+
+    public Text MyCoinText;
+    //private int Coins;
+
     void inisiasi()
     {
         Start();
@@ -20,6 +30,10 @@ public class PlayerRoamAnim : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        //Coins = 0;
+        //MyCoinText.text = "" + Coins;
+        
+        
     }
 
     void Update()
@@ -146,11 +160,32 @@ public class PlayerRoamAnim : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter2D(Collider2D collider)
-    {
+    private void OnTriggerEnter2D(Collider2D collider)
+    {   
+        if(collider.tag == "Arrow_To_Area1_1")
+        {
+            SceneManager.LoadScene("Tutorial_RoamingAwal");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Area1_2")
+        {
+            Collectables.instance.start();
+            SceneManager.LoadScene("Tutorial_Roaming");
+            Time.timeScale = 1f;
+        }
         if(collider.tag == "Arrow_To_Area2_1")
         {
             SceneManager.LoadScene("Area2_Roaming");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Area2_Mid")
+        {
+            SceneManager.LoadScene("Area2_Mid");
+            Time.timeScale = 1f;
+        }
+        if(collider.tag == "Arrow_To_Area2_Beach")
+        {
+            SceneManager.LoadScene("Area2_Beach");
             Time.timeScale = 1f;
         }
         if(collider.tag == "Arrow_To_Area2_2")
@@ -168,6 +203,11 @@ public class PlayerRoamAnim : MonoBehaviour
             SceneManager.LoadScene("Area3_Roaming2");
             Time.timeScale = 1f;
         }
+        if(collider.tag == "Arrow_To_Area3_3")
+        {
+            SceneManager.LoadScene("Area3_Roaming3");
+            Time.timeScale = 1f;
+        }
         if(collider.tag == "Arrow_To_Area4")
         {
             SceneManager.LoadScene("HuangLong_Cutscene");
@@ -180,24 +220,36 @@ public class PlayerRoamAnim : MonoBehaviour
         }
         if(collider.tag == "Mob_area1")
         {
-            SceneManager.LoadScene("Tutorial_Combat");
+            Battle.SetActive(true);
             Time.timeScale = 1f;
+            bg1.SetActive(false);
+            Time.timeScale = 0f;
+            bg2.SetActive(false);
+            Time.timeScale = 0f;
         }
-        if(collider.tag == "Mob_area2_2")
+        if(collider.tag == "Mob_area2")
         {
-            SceneManager.LoadScene("Area2_Combat");
+            Battle2.SetActive(true);
             Time.timeScale = 1f;
+            bg1.SetActive(false);
+            Time.timeScale = 0f;
+            bg2.SetActive(false);
+            Time.timeScale = 0f;
         }
-        if(collider.tag == "Mob_area3_1")
+       
+        
+        if(collider.tag == "Coin")
         {
-            SceneManager.LoadScene("Area3_Combat1");
-            Time.timeScale = 1f;
+            Destroy(collider.gameObject);
+            Collectables.instance.Addcoin();
+
+            //Coins += 1;
+            //string ItemType = collider.gameObject.GetComponent<Collectables>().ItemType;
+            //print("Collected a " + ItemType);
+            //items.Add(ItemType);
+            //print("Inventory Length: " + items.Count);
+            // MyCoinText.text = "" + Coins;
         }
-        // if(collider.tag == "Mob_area3_2")
-        // {
-        //     SceneManager.LoadScene("Area3_Combat2");
-        //     Time.timeScale = 1f;
-        // }
     }
 
 }

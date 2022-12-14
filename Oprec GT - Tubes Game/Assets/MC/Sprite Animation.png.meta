@@ -166,12 +166,12 @@ TextureImporter:
       name: Sprite Animation_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 580.5
-        width: 105.5
-        height: 193.5
+        x: 2
+        y: 619
+        width: 68
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: Sprite Animation_1
       rect:
         serializedVersion: 2
-        x: 105
-        y: 580.5
-        width: 105.5
-        height: 193.5
+        x: 111
+        y: 623
+        width: 68
+        height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: Sprite Animation_2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 580.5
-        width: 105.5
-        height: 193.5
+        x: 226
+        y: 622
+        width: 68
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: Sprite Animation_3
       rect:
         serializedVersion: 2
-        x: 315
-        y: 580.5
-        width: 105.5
-        height: 193.5
+        x: 342
+        y: 623
+        width: 70
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,12 +250,12 @@ TextureImporter:
       name: Sprite Animation_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 387.5
-        width: 105.5
-        height: 193.5
+        x: 7
+        y: 403
+        width: 68
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: Sprite Animation_5
       rect:
         serializedVersion: 2
-        x: 105
-        y: 387.5
-        width: 105.5
-        height: 193.5
+        x: 111
+        y: 405
+        width: 68
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: Sprite Animation_6
       rect:
         serializedVersion: 2
-        x: 210
-        y: 387.5
-        width: 105.5
-        height: 193.5
+        x: 232
+        y: 405
+        width: 71
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: Sprite Animation_7
       rect:
         serializedVersion: 2
-        x: 315
-        y: 387.5
-        width: 105.5
-        height: 193.5
+        x: 347
+        y: 406
+        width: 69
+        height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,11 +335,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 194.5
-        width: 105.5
-        height: 193.5
+        y: 205
+        width: 81
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,12 +355,12 @@ TextureImporter:
       name: Sprite Animation_9
       rect:
         serializedVersion: 2
-        x: 105
-        y: 194.5
-        width: 105.5
-        height: 193.5
+        x: 111
+        y: 204
+        width: 77
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,12 +376,12 @@ TextureImporter:
       name: Sprite Animation_10
       rect:
         serializedVersion: 2
-        x: 210
-        y: 194.5
-        width: 105.5
-        height: 193.5
+        x: 226
+        y: 208
+        width: 83
+        height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,12 +397,12 @@ TextureImporter:
       name: Sprite Animation_11
       rect:
         serializedVersion: 2
-        x: 315
-        y: 194.5
-        width: 105.5
-        height: 193.5
+        x: 344
+        y: 208
+        width: 78
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: Sprite Animation_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1.5
-        width: 105.5
-        height: 193.5
+        x: 3
+        y: 0
+        width: 74
+        height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,12 +439,12 @@ TextureImporter:
       name: Sprite Animation_13
       rect:
         serializedVersion: 2
-        x: 105
-        y: 1.5
-        width: 105.5
-        height: 193.5
+        x: 114
+        y: 0
+        width: 74
+        height: 167
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,12 +460,12 @@ TextureImporter:
       name: Sprite Animation_14
       rect:
         serializedVersion: 2
-        x: 210
-        y: 1.5
-        width: 105.5
-        height: 193.5
+        x: 231
+        y: 2
+        width: 76
+        height: 165
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,12 +481,12 @@ TextureImporter:
       name: Sprite Animation_15
       rect:
         serializedVersion: 2
-        x: 315
-        y: 1.5
-        width: 105.5
-        height: 193.5
+        x: 345
+        y: 1
+        width: 71
+        height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

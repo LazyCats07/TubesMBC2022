@@ -15,6 +15,14 @@ TagManager:
   - Arrow_To_Azatoth
   - Arrow_To_Area2_1
   - Mob_area1
+  - Mob_area1_2
+  - Mob_area2
+  - Arrow_To_Area1_2
+  - Arrow_To_Area1_1
+  - Coin
+  - Arrow_To_Area2_Mid
+  - Arrow_To_Area2_Beach
+  - Arrow_To_Area3_3
   layers:
   - Default
   - TransparentFX
@@ -60,4 +68,7 @@ TagManager:
     locked: 0
   - name: Pause
     uniqueID: 1177687311
+    locked: 0
+  - name: Battle
+    uniqueID: 1415082847
     locked: 0
