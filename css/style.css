@@ -3,12 +3,25 @@
 Ini untuk bootstrap nya, liat docs bootstrap untuk css code nya, atau bikin sendiri juga bisa
 https://getbootstrap.com/
 */
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+html {
+  height: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
   /* font-family: 'Inter'; */
   font-family: 'Montserrat', sans-serif;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 .container-fluid {
   background-color: #2f1b50;
 }
@@ -81,11 +94,11 @@ https://getbootstrap.com/
 
 /* Footer */
 footer {
-  position: relative;
+  /* position: relative; */
   margin-top: auto;
   background: black;
   bottom: 0;
-  height: 160px;
+  height: 170px;
   width: auto;
   color: white;
   padding-top: 20px;
