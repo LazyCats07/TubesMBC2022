@@ -29,6 +29,31 @@ class profil(Resource):
             return(result)
         finally : 
             sql.close()
+    def post(self) : 
+        try :
+            sql = con.cursor()
+            _nama = request.form['name'] #tinggal ganti nama colum 
+            _panggil = request.form['nama_panggil'] #tinggal ganti nama coloumn juga 
+            _jeniskelamin = request.form['jenis_kelamin']
+            _jurusan = request.form['jurusan']
+            _angkatan = request.form['angkatan']
+            _divisi = request.form['divisi']
+            _status = request.form['status']
+            _banyakprojek = request.form['banyak_project']
+            _skill = request.form['skill']
+            create_value = """INSERT INTO datafix (name,nama_panggil,Jenis_kelamin,jurusan,angkatan,divisi,status,banyak project,skill) VALUES(%s,%s)"""
+            sql.execute(create_value,(_nama,_panggil,_jeniskelamin,_jurusan,_angkatan,_divisi,_status,_banyakprojek,_skill))
+            con.commit()
+            result = jsonify(data="User telah ditambahkan")
+            result.status_code = 200
+            return(result)
+        except Exception as err : 
+            print(err)
+            result = jsonify(data="data gagal")
+            result.status_code = 400
+            return(result)
+        finally : 
+            sql.close()
 
 class dosen(Resource):
     def get(self): 
@@ -46,6 +71,25 @@ class dosen(Resource):
             return(result)
         finally : 
             sql.close()
+    
+    def post(self) : 
+        try :
+            sql = con.cursor()
+            _nama = request.form['nama'] #tinggal ganti nama colum 
+            _divisipem = request.form['divisi'] #tinggal ganti nama coloumn juga 
+            create_value = """INSERT INTO pembina (name,divisi) VALUES(%s,%s)"""
+            sql.execute(create_value,(_nama,_divisipem))
+            con.commit()
+            result = jsonify(data="User telah ditambahkan")
+            result.status_code = 200
+            return(result)
+        except Exception as err : 
+            print(err)
+            result = jsonify(data="data gagal")
+            result.status_code = 400
+            return(result)
+        finally : 
+            sql.close()        
 
 class skill(Resource):
     def get(self): 
