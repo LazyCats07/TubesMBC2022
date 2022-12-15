@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6282435488720081059
+--- !u!1 &2487302887200444115
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1796879606208834183}
-  - component: {fileID: 760120092618021643}
-  - component: {fileID: 469573027516314724}
+  - component: {fileID: 576445270407859436}
+  - component: {fileID: 9157366500454453631}
   m_Layer: 0
-  m_Name: FairyLevel3
+  m_Name: Main Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1796879606208834183
+--- !u!4 &576445270407859436
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6282435488720081059}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -2.2, y: -0.4, z: 0}
-  m_LocalScale: {x: 1.894155, y: 1.894155, z: 1.894155}
+  m_GameObject: {fileID: 2487302887200444115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.3452, y: 18.6, z: 0}
+  m_LocalScale: {x: 1.2396, y: 1.2396, z: 1.2396}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 6042099039103551680}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!212 &760120092618021643
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &9157366500454453631
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6282435488720081059}
+  m_GameObject: {fileID: 2487302887200444115}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -71,32 +70,64 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1415082847
   m_SortingLayer: 4
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 6efae8cd465dedb45aed9de055db8e57, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 66c4d485fee5d9843af3d6c3cbb87dc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 11.820001, y: 17.79953}
+  m_Size: {x: 13.406836, y: 47.34}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &469573027516314724
+--- !u!1 &6819748638282053537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6042099039103551680}
+  - component: {fileID: 5726386176425295300}
+  m_Layer: 0
+  m_Name: Area2-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6042099039103551680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6819748638282053537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 0.8, z: 1}
+  m_Children:
+  - {fileID: 576445270407859436}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5726386176425295300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6282435488720081059}
+  m_GameObject: {fileID: 6819748638282053537}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c36a2c540bda4644aa759f6df2325b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Fairy
-  unitLevel: 3
-  damage: 30
-  maxHP: 60
-  currentHP: 60
+  unitName: Ren
+  unitLevel: 2
+  damage: 20
+  maxHP: 70
+  currentHP: 70

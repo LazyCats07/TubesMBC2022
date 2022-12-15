@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Imp
-  unitLevel: 3
+  unitLevel: 4
   damage: 30
   maxHP: 60
   currentHP: 60

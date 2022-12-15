@@ -24,7 +24,7 @@ public class Unit : MonoBehaviour
 
     public bool TakeSkill(int dmg)
     {
-        currentHP -= (dmg * 2);
+        currentHP -= (dmg + 10 );
 
         if(currentHP <= 0)
             return true;

@@ -16,6 +16,7 @@ public class PlayerRoamAnim : MonoBehaviour
     public GameObject Battle2;
     public GameObject bg1;
     public GameObject bg2;
+    public GameObject Cs1;
     //public List<string> items;
 
     public Text MyCoinText;
@@ -182,6 +183,7 @@ public class PlayerRoamAnim : MonoBehaviour
         {
             SceneManager.LoadScene("Area2_Mid");
             Time.timeScale = 1f;
+            
         }
         if(collider.tag == "Arrow_To_Area2_Beach")
         {
@@ -215,8 +217,12 @@ public class PlayerRoamAnim : MonoBehaviour
         }
         if(collider.tag == "Arrow_To_Azatoth")
         {
-            SceneManager.LoadScene("Area5_Combat");
+            Cs1.SetActive(true);
             Time.timeScale = 1f;
+            bg1.SetActive(false);
+            Time.timeScale = 0f;
+            bg2.SetActive(false);
+            Time.timeScale = 0f;
         }
         if(collider.tag == "Mob_area1")
         {
@@ -250,6 +256,17 @@ public class PlayerRoamAnim : MonoBehaviour
             // items.Add(ItemType);
             // print("Inventory Length: " + items.Count);
             // MyCoinText.text = "" + Coins;
+        }
+
+        if(collider.tag == "Bahamut")
+        {
+            Cs1.SetActive(true);
+            Time.timeScale = 1f;
+            bg1.SetActive(false);
+            Time.timeScale = 0f;
+            bg2.SetActive(false);
+            Time.timeScale = 0f;
+            Destroy(collider.gameObject);
         }
 
     }

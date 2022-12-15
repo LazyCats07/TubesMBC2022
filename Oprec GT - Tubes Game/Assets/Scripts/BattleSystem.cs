@@ -180,7 +180,7 @@ public class BattleSystem : MonoBehaviour
 
     void PlayerHeal()
     {
-        playerUnit.Heal(20);
+        playerUnit.Heal(50);
 
         playerHUD.SetHP(playerUnit.currentHP);
         dialogueText.text = "You feel refreshed";

@@ -158,6 +158,8 @@ MonoBehaviour:
   bg1: {fileID: 391183318}
   bg2: {fileID: 2033257867}
   Battle: {fileID: 222164014}
+  Battle2: {fileID: 222164014}
+  Battle3: {fileID: 222164014}
   Skill: {fileID: 136247425}
   Win: {fileID: 1894744040}
 --- !u!114 &909825
@@ -1008,7 +1010,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ren
+  m_Text: Fairy
 --- !u!222 &122750025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1772,9 +1774,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 909824}
         m_TargetAssemblyTypeName: Talkmenu, Assembly-CSharp
-        m_MethodName: Yes1
+        m_MethodName: yes11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2094,6 +2096,7 @@ MonoBehaviour:
   Battle2: {fileID: 0}
   bg1: {fileID: 391183318}
   bg2: {fileID: 2033257867}
+  Cs1: {fileID: 0}
   MyCoinText: {fileID: 788159873}
 --- !u!95 &208784745
 Animator:
@@ -2295,10 +2298,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -5819,7 +5822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ren
+  m_Text: Imp
 --- !u!222 &785985716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6372,7 +6375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11354,7 +11357,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 909824}
         m_TargetAssemblyTypeName: Talkmenu, Assembly-CSharp
         m_MethodName: talk
         m_Mode: 1
@@ -11486,7 +11489,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 909824}
         m_TargetAssemblyTypeName: Talkmenu, Assembly-CSharp
         m_MethodName: No1
         m_Mode: 1
@@ -12983,8 +12986,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 487, y: 458.06}
-  m_SizeDelta: {x: 125.9, y: 85.64}
+  m_AnchoredPosition: {x: 488.64, y: 458.06}
+  m_SizeDelta: {x: 125.9, y: 236.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1629422642
 BoxCollider2D:
@@ -13046,7 +13049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3529412}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14145,7 +14148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15427,7 +15430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5171427144953708816}
   - component: {fileID: 5171427144953708817}
   - component: {fileID: 4722895585266647786}
+  - component: {fileID: 3064062845444478145}
   m_Layer: 0
   m_Name: Azathoth
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5171427144953708823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.174, y: 8.8, z: 0}
-  m_LocalScale: {x: 12.961216, y: 6.8714905, z: 8.470772}
+  m_LocalPosition: {x: 1.9, y: 18.1, z: 0}
+  m_LocalScale: {x: 3.5731444, y: 1.8943306, z: 2.33522}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 62a20714a22ba6848a38e44f1b7d40d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,7 +97,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Azathoth
-  unitLevel: 5
+  unitLevel: 7
   damage: 50
   maxHP: 100
   currentHP: 100
+--- !u!95 &3064062845444478145
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5171427144953708823}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8b466345bfe2a0d40aee06b9e81d4311, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

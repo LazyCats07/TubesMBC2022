@@ -4682,7 +4682,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2085244814}
         m_TargetAssemblyTypeName: Talkmenu, Assembly-CSharp
-        m_MethodName: Yes1
+        m_MethodName: yes12
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5642,7 +5642,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ren
+  m_Text: Imp
 --- !u!222 &644982290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9679,6 +9679,7 @@ MonoBehaviour:
   Battle2: {fileID: 0}
   bg1: {fileID: 907499780}
   bg2: {fileID: 586581137}
+  Cs1: {fileID: 0}
   MyCoinText: {fileID: 1288656464}
 --- !u!95 &1248859234
 Animator:
@@ -10738,7 +10739,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ren
+  m_Text: Fairy
 --- !u!222 &1339798800
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11455,8 +11456,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -359.982}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 853, y: 265}
-  m_SizeDelta: {x: 164.02, y: 85.64}
+  m_AnchoredPosition: {x: 853, y: 274.89}
+  m_SizeDelta: {x: 164.02, y: 182.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1450758465
 BoxCollider2D:
@@ -11518,7 +11519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11899,7 +11900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11978,7 +11979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15507,7 +15508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16914,10 +16915,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -16979,8 +16980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f497cd9c3e962cb478ceef8ba924cc64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 7778774746681291205, guid: 402140337e45e3245a18fcfe034bce52, type: 3}
-  enemyPrefab: {fileID: 4642226835223342315, guid: c2eabc5dfcac060479ca3b9e50592e79, type: 3}
+  playerPrefab: {fileID: 6234733134801984957, guid: 2f219b74a162c7f448d703815c9eb844, type: 3}
+  enemyPrefab: {fileID: 1692389679687449078, guid: db18a98f97d41f84fa5a5bf2a0d81377, type: 3}
   enemyPrefab2: {fileID: 0}
   Win: {fileID: 1769555447}
   GameOver: {fileID: 2092273954}
@@ -17360,6 +17361,8 @@ MonoBehaviour:
   bg1: {fileID: 907499780}
   bg2: {fileID: 586581137}
   Battle: {fileID: 2068608048}
+  Battle2: {fileID: 2068608048}
+  Battle3: {fileID: 2068608048}
   Skill: {fileID: 998834759}
   Win: {fileID: 1769555447}
 --- !u!1 &2092273954

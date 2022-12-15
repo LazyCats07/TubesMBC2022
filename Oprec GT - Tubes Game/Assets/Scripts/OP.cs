@@ -19,6 +19,9 @@ public class OP : MonoBehaviour
     [SerializeField]
     GameObject Frame6;
 
+    [SerializeField]
+    GameObject Battle3;
+
     public void next1()
     {
         Frame2.SetActive(true);
@@ -64,5 +67,20 @@ public class OP : MonoBehaviour
         Frame6.SetActive(false);
         Time.timeScale = 1f;
         SceneManager.LoadScene("Tutorial_RoamingAwal");
+    }
+
+    public void bth()
+    {
+        Frame3.SetActive(false);
+        Time.timeScale = 0f;
+        Battle3.SetActive(true);
+        Time.timeScale = 1f;
+    }
+
+    public void Final()
+    {
+        Frame2.SetActive(false);
+        Time.timeScale = 0f;
+        SceneManager.LoadScene("Area5_Combat");
     }
 }
