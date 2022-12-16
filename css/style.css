@@ -23,9 +23,11 @@ body {
 }
 
 .container-fluid {
-  background-color: #2f1b50;
+  background-color: #d7dadb;
 }
-
+.nav-link{
+  color: black !important;
+}
 .nav-link:hover {
   color: red !important;
 }
