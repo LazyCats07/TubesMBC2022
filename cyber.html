@@ -29,11 +29,10 @@
 
 <body>
   <!-- Navbar -->
-  <section class="header">
+  <section class="header" id="header">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid text-center">
-        <a href="main.html" class="navbar-brand"><img src="assets/img/mbc-logo-uncut.png" alt="mbc logo"
-            width="200" /></a>
+        <a href="/" class="navbar-brand"><img src="assets/img/mbc-logo-uncut.png" alt="mbc logo" width="200" /></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 t">
             <li class="nav-item">
-              <a class="nav-link text-white" href="main.html"><b>Home</b></a>
+              <a class="nav-link text-white" href="/"><b>Home</b></a>
             </li>
 
             <li class="nav-item dropdown">
@@ -51,13 +50,13 @@
                 aria-expanded="false"> <b>Profile</b></a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="profile_dosen.html"><b>Dosen Pembimbing</b></a>
+                  <a class="dropdown-item" href="profile_dosen"><b>Dosen Pembimbing</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="asisten.html"><b>Asisten</b></a>
+                  <a class="dropdown-item" href="asisten"><b>Asisten</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="caas.html"><b>Calon Asisten</b></a>
+                  <a class="dropdown-item" href="caas"><b>Calon Asisten</b></a>
                 </li>
               </ul>
             </li>
@@ -67,26 +66,24 @@
                 aria-expanded="false"> <b>Division</b> </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="cyber.html"><b>Cybersecurity</b></a>
+                  <a class="dropdown-item" href="cyber"><b>Cybersecurity</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="bd.html"><b>Big Data</b></a>
+                  <a class="dropdown-item" href="bd"><b>Big Data</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="gis.html"><b>GIS</b></a>
+                  <a class="dropdown-item" href="gis"><b>GIS</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="gameTech.html"><b>GameTech</b></a>
+                  <a class="dropdown-item" href="gameTech"><b>GameTech</b></a>
                 </li>
               </ul>
             </li>
           </ul>
           <form class="d-flex" role="search">
-
             <input class="form-control me-2" type="search" placeholder="Skill : Git, Python, Linux, etc"
               aria-label="Search" id="inSearch" />
             <button class="btn btn-outline-danger" type="submit" onclick="search()">Search</button>
-
           </form>
         </div>
       </div>
@@ -105,7 +102,7 @@
           <span class="divs-name">CYBER SECURITY 🔐</span>
         </h1>
         <p class="text-head-desc">
-          This is our last project in this week. Our Website or we can said "Website Calon Asisten MBC Lab 2022."
+          This is our last project this week. Welcome to our Website ! <br>
         </p>
         <a class="btn btn-primary cbs-button" href="main.html" role="button">Website</a>
       </div>
@@ -118,39 +115,37 @@
     <div class="col">
       <div class="desc">
         <div class="main-desc">
-          <h5 class="title-desc">What is "Cybersecurity" ???</h5>
+          <h5 class="title-desc"> <b>What is "Cybersecurity" ???</b></h5>
           <div class="par-desc">
             <p>
-              <b><i>Cybersecurity</i></b> is the practice of protecting critical systems and sensitive information from
-              digital attacks. Also known as information technology (IT) security, cybersecurity measures are designed
-              to combat threats against networked systems and applications, whether those threats originate from inside
-              or outside of an organization.
-            </p>
+              Cybersecurity is the practice of protecting critical systems and sensitive information from digital
+              attacks. Also known as information technology (IT) security, cybersecurity measures are designed to combat
+              threats against networked systems and applications, whether those threats originate from inside or outside
+              of an organization.
           </div>
         </div>
-        <h5 class="title-desc">Cybersecurity domains</h5>
+        <h5 class="title-desc"><b>Cybersecurity domains</b></h5>
         <div class="par-desc">
           <p>
-            A strong cybersecurity strategy has layers of protection to defend against cyber crime, including cyber
-            attacks that attempt to access, change, or destroy data; extort money from users or the organization; or aim
-            to disrupt normal
-            business operations. Countermeasures should address:
+            A strong cybersecurity strategy has layers of protection to defend against cybercrime, including cyber
+            attacks that attempt to access, change, or destroy data, extort money from users or the organization, or aim
+            to disrupt normal business operations. Countermeasures should address:
           </p>
           <ul>
             <li>
               <b>Critical infrastructure security</b> - Practices for protecting the computer systems, networks, and
               other assets that society relies upon for national security, economic health, and/or public safety. The
-              National Institute of
-              Standards and Technology (NIST) has created a cybersecurity framework to help organizations in this area,
-              while the U.S. Department of Homeland Security (DHS) provides additional guidance.
+              National Institute of Standards and Technology (NIST) has created a cybersecurity framework to help
+              organizations in this area, while the U.S. Department of Homeland Security (DHS) provides additional
+              guidance.
             </li>
-            <li><a href="https://www.ibm.com/id-en/qradar/network-security">Network security</a> - Security measures for
-              protecting a computer network from intruders, including both wired and wireless (Wi-Fi) connections.</li>
+            <li><a href="https://www.ibm.com/id-en/qradar/network-security"><b>Network Security</b></a> - Security
+              measures for protecting a computer network from intruders, including both wired and wireless (Wi-Fi)
+              connections.</li>
             <li>
-              Application security - Processes that help protect applications operating on-premises and in the cloud.
-              Security should be built into applications at the design stage, with considerations for how data is
-              handled, user
-              authentication, etc.
+              <b>Application security</b> - Processes that help protect applications operating on-premises and in the
+              cloud. Security should be built into applications at the design stage, with considerations for how data is
+              handled, user authentication, etc.
             </li>
           </ul>
         </div>

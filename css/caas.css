@@ -2,18 +2,23 @@
 .caas h1{
   text-align: center;
   color: #5f5e5e;
-  font-weight: bold;
+}
+.caas{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+	position: relative;
 }
 
 .divisi{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   background-color: red;
 }
 
 .divisi{
   padding-bottom: 5px;
   color:white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*flip*/
@@ -27,7 +32,7 @@
 }
 .flip-main{
 	min-height: 100vh;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	padding: 30px ;
 }
 .flip-main .flip-card{
@@ -36,7 +41,7 @@
 }
 .flip-main .flip-card-inner{
   border-radius: 10%;
-	box-shadow: 0 0 10px #a9b3d6;
+	box-shadow: 0 0 10px #afb4c9;
 	position: relative;
 	transform-style: preserve-3d;
 	transition: all 1s ease;
