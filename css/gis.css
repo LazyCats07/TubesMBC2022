@@ -48,8 +48,8 @@ li {
 }
 .flip-main .flip-card-front img{
 	width: 360px;
-  padding: 0px;
-  object-fit: fill;
+ 	 padding: 0px;
+  object-fit:fill;
 }
 .flip-main .flip-card-front,
 .flip-main .flip-card-back{
@@ -101,4 +101,8 @@ li {
 	text-align: center;
     color: white;
     font-weight: bold;
+}
+
+.text p{
+	padding: 0px 10px;
 }
