@@ -31,6 +31,10 @@ li {
   position: relative;
 } 
 
+.guide{
+  text-align: center;
+}
+
 @media(max-width: 991px){
   .game {
     flex: 0 0 calc(50% - 30px);
