@@ -17,6 +17,7 @@ const search = async() => {
     }
   }
 
+  const parent = document.getElementsByClassName('home')
   const node = listed()
   const parag = document.createElement('p')
   node.forEach(l => {
