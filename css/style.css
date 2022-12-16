@@ -23,7 +23,7 @@ body {
 }
 
 .container-fluid {
-  background-color: #d7dadb;
+  background-color: gray;
 }
 .nav-link:hover {
   color: red !important;
@@ -142,7 +142,7 @@ footer {
 }
 
 .socials a:hover i {
-  color: #2f1b50;
+  color: gray;
 }
 
 /* Style Title Divisi */
