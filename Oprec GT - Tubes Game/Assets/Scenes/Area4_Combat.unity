@@ -4777,11 +4777,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TalkMenu: {fileID: 949317880}
-  bg1: {fileID: 0}
-  bg2: {fileID: 0}
+  bg1: {fileID: 2108577126}
+  bg2: {fileID: 1244590412}
   Battle: {fileID: 0}
-  Skill: {fileID: 0}
-  Win: {fileID: 0}
+  Battle2: {fileID: 0}
+  Battle3: {fileID: 0}
+  Skill: {fileID: 803210033}
+  Win: {fileID: 524099890}
 --- !u!4 &1556339022
 Transform:
   m_ObjectHideFlags: 0

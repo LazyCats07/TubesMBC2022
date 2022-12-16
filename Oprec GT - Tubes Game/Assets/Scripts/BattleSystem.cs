@@ -113,7 +113,7 @@ public class BattleSystem : MonoBehaviour
         {
             Win.SetActive(true);
             Time.timeScale = 0f;
-            Collectables.instance.Addcoin();
+            //Collectables.instance.Addcoin();
             SetupBattle();
         
         }

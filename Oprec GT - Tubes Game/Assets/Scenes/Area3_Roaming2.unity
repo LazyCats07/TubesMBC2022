@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c2fa7290e89a1488e4330b62c6e1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 42438657}
   speed: 0
   distanceBetween: 0
 --- !u!95 &9839335
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c2fa7290e89a1488e4330b62c6e1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 42438657}
   speed: 1
   distanceBetween: 4
 --- !u!95 &63315960
@@ -3344,7 +3344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c2fa7290e89a1488e4330b62c6e1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 42438657}
   speed: 0
   distanceBetween: 0
 --- !u!95 &307240935
@@ -4595,7 +4595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c2fa7290e89a1488e4330b62c6e1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 42438657}
   speed: 0
   distanceBetween: 0
 --- !u!95 &441522707
