@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- semua file css dimasukin dalem css folder aja biar gak penuh -->
   <link rel="stylesheet" href="css/style.css" />
@@ -20,10 +21,10 @@
 
 <body>
   <!-- Navbar -->
-  <section class="header">
+  <section class="header" id="header">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid text-center">
-        <a href="main.html" class="navbar-brand"><img src="assets/img/mbc-logo-uncut.png" alt="mbc logo" width="200" /></a>
+        <a href="/" class="navbar-brand"><img src="assets/img/mbc-logo-uncut.png" alt="mbc logo" width="200" /></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 t">
             <li class="nav-item">
-              <a class="nav-link text-black" href="main.html"><b>Menu Utama</b></a>
+              <a class="nav-link text-black" href="/"><b>Beranda</b></a>
             </li>
 
             <li class="nav-item dropdown">
@@ -41,13 +42,13 @@
                 aria-expanded="false"> <b>Profil</b></a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="profile_dosen.html"><b>Dosen Pembimbing</b></a>
+                  <a class="dropdown-item" href="profile_dosen"><b>Dosen Pembimbing</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="asisten.html"><b>Asisten</b></a>
+                  <a class="dropdown-item" href="asisten"><b>Asisten</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="caas.html"><b>Calon Asisten</b></a>
+                  <a class="dropdown-item" href="caas"><b>Calon Asisten</b></a>
                 </li>
               </ul>
             </li>
@@ -57,16 +58,16 @@
                 aria-expanded="false"> <b>Divisi</b> </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="cyber.html"><b><i>Cybersecurity</i></b></a>
+                  <a class="dropdown-item" href="cyber"><b>Cybersecurity</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="bd.html"><b><i>Big Data</i></b></a>
+                  <a class="dropdown-item" href="bd"><b>Big Data</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="gis.html"><b><i>GIS</i></b></a>
+                  <a class="dropdown-item" href="gis"><b>GIS</b></a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="gameTech.html"><b><i>Game Tech</i></b></a>
+                  <a class="dropdown-item" href="gameTech"><b>GameTech</b></a>
                 </li>
               </ul>
             </li>
@@ -74,7 +75,7 @@
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Skill : Git, Python, Linux, etc"
               aria-label="Search" id="inSearch" />
-            <button class="btn btn-outline-danger" type="submit" onclick="search()">Search</button>
+            <button class="btn btn-outline-danger" type="submit" onclick="search()">Mencari</button>
           </form>
         </div>
       </div>
@@ -105,8 +106,8 @@
   <div class="main-desc">
     <h5 class="title-desc">Apa itu <b>"Big Data"</b> ?</h5>
     <div class="par-desc">
-      <p class="desc-bd" style="font: size 25px;">
-        <b>Big data</b> adalah sekumpulan data yang memiliki volume atau ukuran yang sangat besar yang terdiri dari data yang terstruktur <i>(structured)</i>, semi-terstruktur <i>(semi structured)</i>, dan tidak terstruktur <i>(unstructured)</i> dapat berkembang seiring waktu berjalan.
+      <p class="desc-bd" style="font-size :25px;">
+        <b><i>Big data</i></b> adalah sekumpulan data yang memiliki volume atau ukuran yang sangat besar yang terdiri dari data yang terstruktur <i>(structured)</i>, semi-terstruktur <i>(semi structured)</i>, dan tidak terstruktur <i>(unstructured)</i> dapat berkembang seiring waktu berjalan.
       <br><br><br>
       </p>
     </div>
@@ -115,7 +116,7 @@
   <footer>
     <div class="footer-content">
       #WeAttackWeProtect<br>
-      Copyright © 2022 - Rekruitasi MBC <br>  
+      Copyright © 2022 - Rekruitasi MBC <br>
       Contact Us
       <ul class="socials">
         <div><a href="https://www.instagram.com/mbclab/" target="_blank"><i class="fab fa-instagram"></i></a></div>

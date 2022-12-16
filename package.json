@@ -9,7 +9,7 @@
   "description": "1. git branch\r 2. git checkout [nama branch]\r 3. git branch",
   "version": "1.0.0",
   "nodemonConfig": {
-    "ext": "js, html"
+    "ext": "js, html, css"
   },
   "main": "index.js",
   "directories": {

@@ -23,7 +23,7 @@ body {
 }
 
 .container-fluid {
-  background-color: #d7dadb;
+  background-color: rgb(233, 233, 233);
 }
 .nav-link:hover {
   color: red !important;
@@ -142,7 +142,7 @@ footer {
 }
 
 .socials a:hover i {
-  color: #d7dadb;
+  color: #2f1b50;
 }
 
 /* Style Title Divisi */
@@ -154,7 +154,7 @@ span {
 
 .divs-name {
   color: #ff1f1f;
-  font-size: 125px;
+  font-size: 100px;
   margin-left: 50px;
 }
 
