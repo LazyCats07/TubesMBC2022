@@ -970,10 +970,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4665,6 +4665,7 @@ MonoBehaviour:
   nameText: {fileID: 139665290}
   levelText: {fileID: 678370437}
   hpSlider: {fileID: 265024185}
+  mpSlider: {fileID: 0}
 --- !u!114 &506831674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5939,6 +5940,7 @@ MonoBehaviour:
   nameText: {fileID: 946365413}
   levelText: {fileID: 1654300420}
   hpSlider: {fileID: 817458389}
+  mpSlider: {fileID: 770664867}
 --- !u!1 &644366640
 GameObject:
   m_ObjectHideFlags: 0
@@ -6291,6 +6293,7 @@ MonoBehaviour:
   nameText: {fileID: 986930577}
   levelText: {fileID: 330653256}
   hpSlider: {fileID: 1588378209}
+  mpSlider: {fileID: 0}
 --- !u!224 &667992405
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9694,6 +9697,7 @@ MonoBehaviour:
   nameText: {fileID: 50103518}
   levelText: {fileID: 2043763483}
   hpSlider: {fileID: 805399619}
+  mpSlider: {fileID: 1151155903}
 --- !u!1 &974931418
 GameObject:
   m_ObjectHideFlags: 0
@@ -12273,7 +12277,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 528.1475, y: -89.661285}
@@ -18550,6 +18554,7 @@ MonoBehaviour:
   nameText: {fileID: 1045287516}
   levelText: {fileID: 852036567}
   hpSlider: {fileID: 696828943}
+  mpSlider: {fileID: 0}
 --- !u!224 &1865524248
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19377,10 +19382,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -19488,6 +19493,7 @@ MonoBehaviour:
   nameText: {fileID: 1187235483}
   levelText: {fileID: 871906103}
   hpSlider: {fileID: 481605128}
+  mpSlider: {fileID: 0}
 --- !u!114 &1964271056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19698,6 +19704,7 @@ MonoBehaviour:
   nameText: {fileID: 1999840017}
   levelText: {fileID: 1731879848}
   hpSlider: {fileID: 103748496}
+  mpSlider: {fileID: 0}
 --- !u!114 &1984813860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20880,6 +20887,7 @@ MonoBehaviour:
   nameText: {fileID: 377928480}
   levelText: {fileID: 692557066}
   hpSlider: {fileID: 1493891651}
+  mpSlider: {fileID: 0}
 --- !u!114 &2108781833
 MonoBehaviour:
   m_ObjectHideFlags: 0

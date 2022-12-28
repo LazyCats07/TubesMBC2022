@@ -6,6 +6,8 @@ public class Unit : MonoBehaviour
 {
     public string unitName;
     public int unitLevel;
+    public int maxMP;
+    public int currentMP;
 
     public int damage;
 
@@ -25,8 +27,22 @@ public class Unit : MonoBehaviour
     public bool TakeSkill(int dmg)
     {
         currentHP -= (dmg + 10 );
-
         if(currentHP <= 0)
+            return true;
+        // else if(currentHP > 0)
+        //     return false;
+        // else if(currentMP > 0)
+        //     return false;
+        // else if(currentMP <= 0)
+        //     return false;
+        else 
+            return false;
+    }
+
+    public bool Mana(int mana)
+    {
+        currentMP -= mana;
+        if(currentMP > 0)
             return true;
         else
             return false;
@@ -34,6 +50,7 @@ public class Unit : MonoBehaviour
 
     public void Heal(int amount)
     {
+        currentMP -= 30;
         currentHP += amount;
         if(currentHP > maxHP)
             currentHP = maxHP;

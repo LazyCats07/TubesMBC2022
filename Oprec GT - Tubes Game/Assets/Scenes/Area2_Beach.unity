@@ -4324,6 +4324,7 @@ MonoBehaviour:
   nameText: {fileID: 314944573}
   levelText: {fileID: 1466155022}
   hpSlider: {fileID: 553213263}
+  mpSlider: {fileID: 0}
 --- !u!224 &343303692
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4343,7 +4344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1053, y: -434}
+  m_AnchoredPosition: {x: 1053, y: -388}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343303693
@@ -4680,6 +4681,7 @@ MonoBehaviour:
   nameText: {fileID: 517721060}
   levelText: {fileID: 938864985}
   hpSlider: {fileID: 1017703244}
+  mpSlider: {fileID: 0}
 --- !u!114 &366100694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4902,6 +4904,7 @@ MonoBehaviour:
   nameText: {fileID: 1746984043}
   levelText: {fileID: 462963953}
   hpSlider: {fileID: 778801021}
+  mpSlider: {fileID: 0}
 --- !u!224 &383949350
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6030,6 +6033,7 @@ MonoBehaviour:
   nameText: {fileID: 709278199}
   levelText: {fileID: 451796105}
   hpSlider: {fileID: 1854756353}
+  mpSlider: {fileID: 0}
 --- !u!114 &471279419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9292,10 +9296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -10630,6 +10634,7 @@ MonoBehaviour:
   nameText: {fileID: 822566526}
   levelText: {fileID: 1593152119}
   hpSlider: {fileID: 959817181}
+  mpSlider: {fileID: 0}
 --- !u!114 &814460123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11048,10 +11053,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -12930,6 +12935,7 @@ MonoBehaviour:
   nameText: {fileID: 1110060012}
   levelText: {fileID: 1114988925}
   hpSlider: {fileID: 1309024414}
+  mpSlider: {fileID: 0}
 --- !u!224 &1030532374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14886,6 +14892,7 @@ MonoBehaviour:
   nameText: {fileID: 1195641572}
   levelText: {fileID: 1340874859}
   hpSlider: {fileID: 215667549}
+  mpSlider: {fileID: 0}
 --- !u!114 &1173399860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17157,6 +17164,7 @@ MonoBehaviour:
   nameText: {fileID: 1581846655}
   levelText: {fileID: 2088983275}
   hpSlider: {fileID: 1189119948}
+  mpSlider: {fileID: 1177995637}
 --- !u!1 &1340874857
 GameObject:
   m_ObjectHideFlags: 0
@@ -19698,6 +19706,7 @@ MonoBehaviour:
   nameText: {fileID: 2064241866}
   levelText: {fileID: 2130901185}
   hpSlider: {fileID: 297927280}
+  mpSlider: {fileID: 944501472}
 --- !u!1 &1646623104
 GameObject:
   m_ObjectHideFlags: 0
@@ -22561,6 +22570,7 @@ MonoBehaviour:
   nameText: {fileID: 695286210}
   levelText: {fileID: 476927956}
   hpSlider: {fileID: 1196709241}
+  mpSlider: {fileID: 1159434892}
 --- !u!1 &1923980758
 GameObject:
   m_ObjectHideFlags: 0

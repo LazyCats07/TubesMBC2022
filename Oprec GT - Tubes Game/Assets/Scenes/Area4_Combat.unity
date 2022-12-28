@@ -396,6 +396,7 @@ MonoBehaviour:
   nameText: {fileID: 1601548376}
   levelText: {fileID: 935232894}
   hpSlider: {fileID: 578265227}
+  mpSlider: {fileID: 0}
 --- !u!224 &107741062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1073,6 +1074,7 @@ MonoBehaviour:
   nameText: {fileID: 351400889}
   levelText: {fileID: 1881131379}
   hpSlider: {fileID: 746804711}
+  mpSlider: {fileID: 1843260452}
 --- !u!1 &365302910
 GameObject:
   m_ObjectHideFlags: 0

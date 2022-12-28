@@ -151,7 +151,13 @@ public class BattleSystem : MonoBehaviour
         if(state != BattleState.PLAYERTURN)
             return;
         //StartCoroutine(PlayerSkill());
-        PlayerSkill();
+        if(playerUnit.currentMP < 40)
+        {
+            state = BattleState.PLAYERTURN;
+            PlayerTurn();
+        }
+        else if(playerUnit.currentMP >= 40)
+            PlayerSkill();
         Skill.SetActive(false);
         Time.timeScale = 1f;
     }
@@ -159,8 +165,9 @@ public class BattleSystem : MonoBehaviour
     void PlayerSkill()
     {
         bool isDead = enemyUnit.TakeSkill(playerUnit.damage);
-       
+        bool isMana = playerUnit.Mana(40);
         enemyHUD.SetHP(enemyUnit.currentHP);
+        playerHUD.SetMP(playerUnit.currentMP);
         dialogueText.text = "The attack is successful!";
 
         //yield return new WaitForSeconds(1f); 
@@ -169,6 +176,12 @@ public class BattleSystem : MonoBehaviour
         {
             state = BattleState.WON;
             EndBattle();
+        }
+        else if(isMana)
+        {
+            state = BattleState.ENEMYTURN;
+            //StartCoroutine(EnemyTurn());
+            EnemyTurn();
         }
         else
         {
@@ -179,27 +192,38 @@ public class BattleSystem : MonoBehaviour
     }
 
     void PlayerHeal()
-    {
+    {   
+       
         playerUnit.Heal(50);
-
-        playerHUD.SetHP(playerUnit.currentHP);
         dialogueText.text = "You feel refreshed";
+            
+        playerHUD.SetHP(playerUnit.currentHP);
+        playerHUD.SetMP(playerUnit.currentMP);
+        
 
         //yield return new WaitForSeconds(1f);
 
         state = BattleState.ENEMYTURN;
-        //StartCoroutine(EnemyTurn());
         EnemyTurn();
+        //StartCoroutine(EnemyTurn());
+        
     }
 
     public void onHealButton()
-    {
+    {   
+        if(playerUnit.currentMP < 30)
+        {   state = BattleState.PLAYERTURN;
+            PlayerTurn();
+        }
+        else if(playerUnit.currentMP >= 30)
+            PlayerHeal();
+        
         if(state != BattleState.PLAYERTURN)
             return;
         Skill.SetActive(false);
         Time.timeScale = 1f;
         //StartCoroutine(PlayerHeal());
-        PlayerHeal();
+        
     }
 
     public void onEndTurnButton()

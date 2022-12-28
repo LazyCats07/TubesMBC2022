@@ -3697,6 +3697,7 @@ MonoBehaviour:
   nameText: {fileID: 867589714}
   levelText: {fileID: 349885018}
   hpSlider: {fileID: 272476000}
+  mpSlider: {fileID: 0}
 --- !u!114 &402945834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4009,6 +4010,7 @@ MonoBehaviour:
   nameText: {fileID: 1526857473}
   levelText: {fileID: 1539292035}
   hpSlider: {fileID: 1230627622}
+  mpSlider: {fileID: 1876665827}
 --- !u!224 &421656013
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8199,6 +8201,7 @@ MonoBehaviour:
   nameText: {fileID: 1577024742}
   levelText: {fileID: 1219022225}
   hpSlider: {fileID: 406662689}
+  mpSlider: {fileID: 0}
 --- !u!114 &1076761795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9040,6 +9043,7 @@ MonoBehaviour:
   nameText: {fileID: 464265620}
   levelText: {fileID: 267928097}
   hpSlider: {fileID: 1628897682}
+  mpSlider: {fileID: 0}
 --- !u!224 &1170025986
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10173,6 +10177,7 @@ MonoBehaviour:
   nameText: {fileID: 644982289}
   levelText: {fileID: 1590185105}
   hpSlider: {fileID: 880285613}
+  mpSlider: {fileID: 0}
 --- !u!114 &1262419604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11230,6 +11235,7 @@ MonoBehaviour:
   nameText: {fileID: 1339798799}
   levelText: {fileID: 175457480}
   hpSlider: {fileID: 1088951326}
+  mpSlider: {fileID: 0}
 --- !u!114 &1401422152
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1292,6 +1292,8 @@ MonoBehaviour:
   bg1: {fileID: 0}
   bg2: {fileID: 0}
   Battle: {fileID: 0}
+  Battle2: {fileID: 0}
+  Battle3: {fileID: 0}
   Skill: {fileID: 0}
   Win: {fileID: 0}
 --- !u!4 &543119942
@@ -3572,6 +3574,7 @@ MonoBehaviour:
   nameText: {fileID: 381783754}
   levelText: {fileID: 1533579855}
   hpSlider: {fileID: 838319762}
+  mpSlider: {fileID: 0}
 --- !u!224 &1117461173
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4120,6 +4123,7 @@ MonoBehaviour:
   nameText: {fileID: 1484609805}
   levelText: {fileID: 2144011944}
   hpSlider: {fileID: 869847805}
+  mpSlider: {fileID: 652478381}
 --- !u!1 &1484609803
 GameObject:
   m_ObjectHideFlags: 0

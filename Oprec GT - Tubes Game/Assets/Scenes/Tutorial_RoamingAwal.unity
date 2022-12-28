@@ -6455,6 +6455,7 @@ MonoBehaviour:
   nameText: {fileID: 122750024}
   levelText: {fileID: 629721211}
   hpSlider: {fileID: 323738487}
+  mpSlider: {fileID: 0}
 --- !u!114 &878616185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8477,6 +8478,7 @@ MonoBehaviour:
   nameText: {fileID: 1148021440}
   levelText: {fileID: 1219942366}
   hpSlider: {fileID: 429912552}
+  mpSlider: {fileID: 0}
 --- !u!224 &1098028043
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9865,6 +9867,7 @@ MonoBehaviour:
   nameText: {fileID: 1804349840}
   levelText: {fileID: 1933272736}
   hpSlider: {fileID: 133694085}
+  mpSlider: {fileID: 1850097625}
 --- !u!1 &1265276550
 GameObject:
   m_ObjectHideFlags: 0
@@ -10719,6 +10722,7 @@ MonoBehaviour:
   nameText: {fileID: 100482518}
   levelText: {fileID: 293508468}
   hpSlider: {fileID: 1391400021}
+  mpSlider: {fileID: 0}
 --- !u!114 &1404342622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14662,6 +14666,7 @@ MonoBehaviour:
   nameText: {fileID: 785985715}
   levelText: {fileID: 711029414}
   hpSlider: {fileID: 1484815392}
+  mpSlider: {fileID: 0}
 --- !u!114 &1848174423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16693,6 +16698,7 @@ MonoBehaviour:
   nameText: {fileID: 1867330645}
   levelText: {fileID: 1140146246}
   hpSlider: {fileID: 1055069067}
+  mpSlider: {fileID: 0}
 --- !u!114 &2038456594
 MonoBehaviour:
   m_ObjectHideFlags: 0
