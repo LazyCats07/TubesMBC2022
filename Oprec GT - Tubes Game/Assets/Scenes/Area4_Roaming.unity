@@ -2699,6 +2699,7 @@ MonoBehaviour:
   nameText: {fileID: 1317378793}
   levelText: {fileID: 616421897}
   hpSlider: {fileID: 464505194}
+  mpSlider: {fileID: 0}
 --- !u!114 &435032975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6686,8 +6687,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.94, y: -419.6}
-  m_SizeDelta: {x: 4840.18, y: 599.9}
+  m_AnchoredPosition: {x: 12.21, y: -419.6}
+  m_SizeDelta: {x: 4999, y: 599.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253988240
 MonoBehaviour:
@@ -7254,11 +7255,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
-    m_MaxSize: 50
+    m_MinSize: 1
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -7598,6 +7599,7 @@ MonoBehaviour:
   nameText: {fileID: 1600434720}
   levelText: {fileID: 190372164}
   hpSlider: {fileID: 512362738}
+  mpSlider: {fileID: 0}
 --- !u!114 &1361758917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8532,6 +8534,7 @@ MonoBehaviour:
   nameText: {fileID: 1618589664}
   levelText: {fileID: 230300513}
   hpSlider: {fileID: 240144920}
+  mpSlider: {fileID: 0}
 --- !u!114 &1575747043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9606,6 +9609,7 @@ MonoBehaviour:
   nameText: {fileID: 687108796}
   levelText: {fileID: 1750436236}
   hpSlider: {fileID: 1869107460}
+  mpSlider: {fileID: 0}
 --- !u!114 &1782037968
 MonoBehaviour:
   m_ObjectHideFlags: 0

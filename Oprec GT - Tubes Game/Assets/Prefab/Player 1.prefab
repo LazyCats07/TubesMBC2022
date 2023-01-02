@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Ren
   unitLevel: 2
+  maxMP: 100
+  currentMP: 100
   damage: 15
   maxHP: 65
   currentHP: 65
