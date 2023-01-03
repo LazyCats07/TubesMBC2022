@@ -31,8 +31,8 @@ public class PlayerRoamAnim : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        //Coins = 0;
-        //MyCoinText.text = "" + Coins;
+        // Coins = 0;
+        // MyCoinText.text = "" + Coins;
         
         
     }
@@ -248,6 +248,8 @@ public class PlayerRoamAnim : MonoBehaviour
         {
            
             Destroy(collider.gameObject);
+            //GameObject.Find("Player").GetComponent<AudioSource>().Play();
+            CoinSoundManager.instance.coins_source.PlayOneShot(CoinSoundManager.instance.coin_sound);
             Collectables.instance.Addcoin();
 
             // Coins += 1;

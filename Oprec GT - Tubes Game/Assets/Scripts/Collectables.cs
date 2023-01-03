@@ -10,7 +10,7 @@ public class Collectables : MonoBehaviour
     public Text totaltcoins;
     int Coins = 0;
     int TotalCoins = 0;
-    //public string ItemType;
+    public string ItemType;
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class Collectables : MonoBehaviour
     }
     public void start()
     {
-        TotalCoins = PlayerPrefs.GetInt("TotalCoins", 0);
+        TotalCoins = PlayerPrefs.GetInt("TotalCoins",0);
         mycoins.text = Coins.ToString();
         totaltcoins.text = TotalCoins.ToString();
     }
@@ -26,6 +26,7 @@ public class Collectables : MonoBehaviour
     {
         Coins +=1;
         mycoins.text = Coins.ToString();
+        PlayerPrefs.SetInt("TotalCoins", Coins);
         if(TotalCoins < Coins)
         {
             PlayerPrefs.SetInt("TotalCoins", Coins);
