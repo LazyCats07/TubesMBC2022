@@ -98,7 +98,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Azathoth
   unitLevel: 7
-  damage: 50
+  maxMP: 0
+  currentMP: 0
+  damage: 35
   maxHP: 100
   currentHP: 100
 --- !u!95 &3064062845444478145

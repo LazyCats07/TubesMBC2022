@@ -98,9 +98,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Bahamut
   unitLevel: 5
+  maxMP: 0
+  currentMP: 0
   damage: 30
-  maxHP: 50
-  currentHP: 50
+  maxHP: 60
+  currentHP: 60
 --- !u!95 &8341148310147365385
 Animator:
   serializedVersion: 3

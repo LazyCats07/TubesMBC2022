@@ -128,6 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Huang Long
   unitLevel: 6
-  damage: 40
+  maxMP: 0
+  currentMP: 0
+  damage: 35
   maxHP: 70
   currentHP: 70

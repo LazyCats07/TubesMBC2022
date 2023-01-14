@@ -212,6 +212,7 @@ public class PlayerRoamAnim : MonoBehaviour
         }
         if(collider.tag == "Arrow_To_Area4")
         {
+            GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
             SceneManager.LoadScene("HuangLong_Cutscene");
             Time.timeScale = 1f;
         }
@@ -223,6 +224,7 @@ public class PlayerRoamAnim : MonoBehaviour
             Time.timeScale = 0f;
             bg2.SetActive(false);
             Time.timeScale = 0f;
+            GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
         }
         if(collider.tag == "Mob_area1")
         {
@@ -232,6 +234,7 @@ public class PlayerRoamAnim : MonoBehaviour
             Time.timeScale = 0f;
             bg2.SetActive(false);
             Time.timeScale = 0f;
+            
         }
         if(collider.tag == "Mob_area2")
         {
@@ -269,6 +272,8 @@ public class PlayerRoamAnim : MonoBehaviour
             bg2.SetActive(false);
             Time.timeScale = 0f;
             Destroy(collider.gameObject);
+            GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
+            GameObject.Find("Audio_combatBoss").GetComponent<AudioSource>().Play();
         }
 
     }

@@ -45,6 +45,8 @@ public class HuangLongCutScene : MonoBehaviour
         Frame4.SetActive(false);
         Time.timeScale = 1f;
         SceneManager.LoadScene("Area4_Combat");
+        
+        
     }
 
 }

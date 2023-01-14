@@ -66,18 +66,21 @@ public class Talkmenu : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1f;
+        GameObject.Find("Audio_Ending").GetComponent<AudioSource>().Stop();
     }
 
     public void Scene4()
     {
         SceneManager.LoadScene("DeadHL");
         Time.timeScale = 1f;
+        
     }
 
     public void Ending()
     {
         SceneManager.LoadScene("ED_Cutscene");
         Time.timeScale = 1f;
+        
     }
 
     public void Area2()
@@ -104,6 +107,8 @@ public class Talkmenu : MonoBehaviour
         Time.timeScale = 1f;
         bg2.SetActive(true);
         Time.timeScale = 1f;
+        GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Play();
+        GameObject.Find("Audio_combat").GetComponent<AudioSource>().Stop();
     }
 
 

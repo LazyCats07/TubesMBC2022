@@ -32,7 +32,6 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
-        
         state = BattleState.START;
         //StartCoroutine(SetupBattle());
         SetupBattle();
@@ -114,13 +113,17 @@ public class BattleSystem : MonoBehaviour
             Win.SetActive(true);
             Time.timeScale = 0f;
             //Collectables.instance.Addcoin();
+            GameObject.Find("Audio_combat").GetComponent<AudioSource>().Stop();
+            GameObject.Find("Audio_combatBoss").GetComponent<AudioSource>().Stop();
             SetupBattle();
-        
         }
         else if(state == BattleState.LOST)
         {
             GameOver.SetActive(true);
             Time.timeScale = 0f;
+            GameObject.Find("Audio_combat").GetComponent<AudioSource>().Stop();
+            GameObject.Find("Audio_combatBoss").GetComponent<AudioSource>().Stop();
+            SetupBattle();
         }
     }
 

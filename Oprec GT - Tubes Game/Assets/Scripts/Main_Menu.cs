@@ -17,11 +17,12 @@ public class Main_Menu : MonoBehaviour
         Time.timeScale = 1f;
         MainMenu.SetActive(false);
         Time.timeScale = 0f;
-
+        GameObject.Find("Audio_MainMenu").GetComponent<AudioSource>().Stop();
     }
 
     public void Play()
     {
+        GameObject.Find("Audio_MainMenu").GetComponent<AudioSource>().Stop();
         SceneManager.LoadScene("OP_Cutscene");
         Time.timeScale = 1f;
     }

@@ -52,7 +52,7 @@ public class Unit : MonoBehaviour
     {
         currentMP -= 30;
         currentHP += amount;
-        if(currentHP > maxHP)
-            currentHP = maxHP;
+        // if(currentHP > maxHP)
+        //     currentHP = maxHP;
     }
 }

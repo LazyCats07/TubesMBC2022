@@ -33,6 +33,8 @@ public class MobChase : MonoBehaviour
         if(col.tag == "Player")
         {
             Destroy(gameObject);
+            GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
+            GameObject.Find("Audio_combat").GetComponent<AudioSource>().Play();
         }
     }
 }
