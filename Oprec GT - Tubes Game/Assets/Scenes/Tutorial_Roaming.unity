@@ -7969,7 +7969,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9f290989cb85cf948b35d68cebfcd9d6, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -8789,7 +8789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155516654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.52, y: 99.51, z: 0}
+  m_LocalPosition: {x: 103, y: 121, z: 0}
   m_LocalScale: {x: 8.278111, y: 11.054565, z: 88.30634}
   m_Children: []
   m_Father: {fileID: 1155594275}
@@ -9191,7 +9191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 781, y: -434}
+  m_AnchoredPosition: {x: 930.52, y: -412.51}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170025987
@@ -17262,6 +17262,8 @@ MonoBehaviour:
   Win: {fileID: 1769555447}
   GameOver: {fileID: 2092273954}
   Skill: {fileID: 998834759}
+  fireball: {fileID: 1087978837260440736, guid: 1f4b44f348391dd4ca6d60fef8affd79, type: 3}
+  Heall: {fileID: 3693187094508016702, guid: 9564a82d26858784490b64efcbb922ed, type: 3}
   playerBattleStation: {fileID: 307879457}
   enemyBattleStation: {fileID: 1155516655}
   dialogueText: {fileID: 1888185603}

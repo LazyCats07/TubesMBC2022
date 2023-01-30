@@ -11517,6 +11517,8 @@ MonoBehaviour:
   Win: {fileID: 656220185}
   GameOver: {fileID: 2057101708}
   Skill: {fileID: 1691144488}
+  fireball: {fileID: 5519133052860051768, guid: f73f10f7480c96e4491b206857b144d6, type: 3}
+  Heall: {fileID: 3693187094508016702, guid: 9564a82d26858784490b64efcbb922ed, type: 3}
   playerBattleStation: {fileID: 1737239585}
   enemyBattleStation: {fileID: 1323097084}
   dialogueText: {fileID: 1060239338}

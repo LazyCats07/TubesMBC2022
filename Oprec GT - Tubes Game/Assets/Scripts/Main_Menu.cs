@@ -13,10 +13,12 @@ public class Main_Menu : MonoBehaviour
 
     public void Exit()
     {
-        Quit.SetActive(true);
-        Time.timeScale = 1f;
-        MainMenu.SetActive(false);
-        Time.timeScale = 0f;
+        Application.Quit();
+        Debug.Log("Game Ended");
+        // Quit.SetActive(true);
+        // Time.timeScale = 1f;
+        // MainMenu.SetActive(false);
+        // Time.timeScale = 0f;
         GameObject.Find("Audio_MainMenu").GetComponent<AudioSource>().Stop();
     }
 

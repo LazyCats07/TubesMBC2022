@@ -14,6 +14,8 @@ public class BattleSystem : MonoBehaviour
     public GameObject Win;
     public GameObject GameOver;
     public GameObject Skill;
+    public GameObject fireball;
+    public GameObject Heall;
     
 
     public Transform playerBattleStation;
@@ -160,6 +162,7 @@ public class BattleSystem : MonoBehaviour
             PlayerTurn();
         }
         else if(playerUnit.currentMP >= 40)
+            Fireballanim();
             PlayerSkill();
         Skill.SetActive(false);
         Time.timeScale = 1f;
@@ -219,6 +222,7 @@ public class BattleSystem : MonoBehaviour
             PlayerTurn();
         }
         else if(playerUnit.currentMP >= 30)
+            Healanim();
             PlayerHeal();
         
         if(state != BattleState.PLAYERTURN)
@@ -238,5 +242,14 @@ public class BattleSystem : MonoBehaviour
         EnemyTurn();
     }
 
+    public void Fireballanim()
+    {
+        GameObject fb = (GameObject)Instantiate (fireball);
+        
+    }
+    public void Healanim()
+    {
+        GameObject heal = (GameObject)Instantiate (Heall);
+    }
 
 }

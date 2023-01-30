@@ -2264,6 +2264,8 @@ MonoBehaviour:
   Win: {fileID: 1894744040}
   GameOver: {fileID: 246319134}
   Skill: {fileID: 136247425}
+  fireball: {fileID: 1087978837260440736, guid: 1f4b44f348391dd4ca6d60fef8affd79, type: 3}
+  Heall: {fileID: 3693187094508016702, guid: 9564a82d26858784490b64efcbb922ed, type: 3}
   playerBattleStation: {fileID: 1610328982}
   enemyBattleStation: {fileID: 844123664}
   dialogueText: {fileID: 853091842}
@@ -2345,7 +2347,7 @@ RectTransform:
   - {fileID: 1644356624}
   - {fileID: 331472970}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5511,7 +5513,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &711029412
 GameObject:
@@ -6438,7 +6440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844123663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.52, y: 99.51, z: 0}
+  m_LocalPosition: {x: 91, y: 124, z: 0}
   m_LocalScale: {x: 8.278111, y: 11.054565, z: 88.30634}
   m_Children: []
   m_Father: {fileID: 1644356624}
@@ -8626,7 +8628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 781, y: -434}
+  m_AnchoredPosition: {x: 918.52, y: -409.51}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098028044
