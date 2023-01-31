@@ -3038,7 +3038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1174045478}
-  speed: 1
+  speed: 0
   distanceBetween: 4
 --- !u!50 &397058261
 Rigidbody2D:
@@ -14618,7 +14618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1174045478}
-  speed: 1
+  speed: 0
   distanceBetween: 4
 --- !u!50 &1525910604
 Rigidbody2D:
@@ -18562,12 +18562,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1932538893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec84291dacf40f4498ab85f73cbcbda9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2360761a17cf200449f9349257653786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mycoins: {fileID: 1279989414}
-  totaltcoins: {fileID: 1279989414}
-  ItemType: 
+  CoinVal: {fileID: 1279989414}
+  koin: 0
+  intvalue: 0
 --- !u!1 &1968655618
 GameObject:
   m_ObjectHideFlags: 0

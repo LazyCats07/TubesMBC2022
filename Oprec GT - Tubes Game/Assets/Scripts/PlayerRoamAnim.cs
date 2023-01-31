@@ -165,12 +165,13 @@ public class PlayerRoamAnim : MonoBehaviour
     {   
         if(collider.tag == "Arrow_To_Area1_1")
         {
+            Collectables.instance.load();
             SceneManager.LoadScene("Tutorial_RoamingAwal");
             Time.timeScale = 1f;
         }
         if(collider.tag == "Arrow_To_Area1_2")
         {
-            Collectables.instance.start();
+            Collectables.instance.load();
             SceneManager.LoadScene("Tutorial_Roaming");
             Time.timeScale = 1f;
         }
@@ -181,7 +182,9 @@ public class PlayerRoamAnim : MonoBehaviour
         }
         if(collider.tag == "Arrow_To_Area2_Mid")
         {
+            CollectCoin.instance.save();
             SceneManager.LoadScene("Area2_Mid");
+            CollectCoin.instance.load();
             Time.timeScale = 1f;
             
         }
@@ -254,6 +257,9 @@ public class PlayerRoamAnim : MonoBehaviour
             //GameObject.Find("Player").GetComponent<AudioSource>().Play();
             CoinSoundManager.instance.coins_source.PlayOneShot(CoinSoundManager.instance.coin_sound);
             Collectables.instance.Addcoin();
+            Collectables.instance.save();
+            // CollectCoin.instance.addC();
+            // CollectCoin.instance.save();
 
             // Coins += 1;
             // string ItemType = collider.gameObject.GetComponent<Collectables>().ItemType;

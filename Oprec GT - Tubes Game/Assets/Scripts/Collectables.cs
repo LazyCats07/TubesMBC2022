@@ -26,12 +26,25 @@ public class Collectables : MonoBehaviour
     {
         Coins +=1;
         mycoins.text = Coins.ToString();
-        PlayerPrefs.SetInt("TotalCoins", Coins);
-        if(TotalCoins < Coins)
-        {
-            PlayerPrefs.SetInt("TotalCoins", Coins);
-        }
+        save();
+        // if(TotalCoins < Coins)
+        // {
+        //     PlayerPrefs.SetInt("TotalCoins", Coins);
+        // }
     }
+
+    public void save()
+    {
+       PlayerPrefs.SetInt("TotalCoins",Coins);
+    }
+    
+    public void load()
+    {
+        TotalCoins = PlayerPrefs.GetInt("TotalCoins",Coins);
+        mycoins.text = Coins.ToString();
+        totaltcoins.text = TotalCoins.ToString();
+    }
+
     public void Reset()
     {
         PlayerPrefs.DeleteKey("TotalCoins");
