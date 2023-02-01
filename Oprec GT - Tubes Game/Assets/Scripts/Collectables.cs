@@ -9,7 +9,7 @@ public class Collectables : MonoBehaviour
     public Text mycoins;
     public Text totaltcoins;
     int Coins = 0;
-    int TotalCoins = 0;
+    int TotalCoins;
     public string ItemType;
 
     private void Awake()
@@ -18,7 +18,7 @@ public class Collectables : MonoBehaviour
     }
     public void start()
     {
-        TotalCoins = PlayerPrefs.GetInt("TotalCoins",0);
+        TotalCoins = PlayerPrefs.GetInt("TotalCoins",TotalCoins);
         mycoins.text = Coins.ToString();
         totaltcoins.text = TotalCoins.ToString();
     }
@@ -40,7 +40,7 @@ public class Collectables : MonoBehaviour
     
     public void load()
     {
-        TotalCoins = PlayerPrefs.GetInt("TotalCoins",Coins);
+        TotalCoins = PlayerPrefs.GetInt("TotalCoins",TotalCoins);
         mycoins.text = Coins.ToString();
         totaltcoins.text = TotalCoins.ToString();
     }

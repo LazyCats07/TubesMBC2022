@@ -117,6 +117,7 @@ public class BattleSystem : MonoBehaviour
             //Collectables.instance.Addcoin();
             GameObject.Find("Audio_combat").GetComponent<AudioSource>().Stop();
             GameObject.Find("Audio_combatBoss").GetComponent<AudioSource>().Stop();
+            GameObject.Find("Audio_Win").GetComponent<AudioSource>().Play();
             SetupBattle();
         }
         else if(state == BattleState.LOST)
@@ -125,6 +126,7 @@ public class BattleSystem : MonoBehaviour
             Time.timeScale = 0f;
             GameObject.Find("Audio_combat").GetComponent<AudioSource>().Stop();
             GameObject.Find("Audio_combatBoss").GetComponent<AudioSource>().Stop();
+            GameObject.Find("Audio_GameOver").GetComponent<AudioSource>().Play();
             SetupBattle();
         }
     }

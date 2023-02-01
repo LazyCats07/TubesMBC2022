@@ -8,8 +8,8 @@ public class CollectCoin : MonoBehaviour
 { 
     public static CollectCoin instance;
     public Text CoinVal;
-    public int koin;
-    public int intvalue;
+    private int koin = 0;
+    private int intvalue;
 
     private void Awake()
     {
