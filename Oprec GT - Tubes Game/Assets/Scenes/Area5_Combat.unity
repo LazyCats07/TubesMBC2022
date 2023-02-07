@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 6884778232418700389, guid: 5a22b47cae8751c4da190a0f220e79a5, type: 3}
-  enemyPrefab: {fileID: 5171427144953708823, guid: 8fe010a7eca15e64b936e061bad239e9, type: 3}
+  enemyPrefab: {fileID: 2810821988507128909, guid: f4671c27173f6544bafaa13a2c488b50, type: 3}
   enemyPrefab2: {fileID: 0}
   Win: {fileID: 1675026136}
   GameOver: {fileID: 1185706146}
