@@ -15,6 +15,10 @@ public class Collectables : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        TotalCoins = PlayerPrefs.GetInt("TotalCoins", 0);
+        Coins = TotalCoins;
+        mycoins.text = Coins.ToString();
+        totaltcoins.text = TotalCoins.ToString();
     }
     public void start()
     {
@@ -40,12 +44,13 @@ public class Collectables : MonoBehaviour
     
     public void load()
     {
-        TotalCoins = PlayerPrefs.GetInt("TotalCoins",TotalCoins);
+        TotalCoins = PlayerPrefs.GetInt("TotalCoins", 0);
+        Coins = TotalCoins;
         mycoins.text = Coins.ToString();
         totaltcoins.text = TotalCoins.ToString();
     }
 
-    public void Reset()
+    public void Resetcoin()
     {
         PlayerPrefs.DeleteKey("TotalCoins");
     }

@@ -27,6 +27,7 @@ public class Main_Menu : MonoBehaviour
         GameObject.Find("Audio_MainMenu").GetComponent<AudioSource>().Stop();
         SceneManager.LoadScene("OP_Cutscene");
         Time.timeScale = 1f;
+        // Collectables.instance.Resetcoin();
     }
 
     

@@ -67,6 +67,7 @@ public class Talkmenu : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1f;
         GameObject.Find("Audio_Ending").GetComponent<AudioSource>().Stop();
+        Collectables.instance.Resetcoin();
     }
 
     public void Scene4()

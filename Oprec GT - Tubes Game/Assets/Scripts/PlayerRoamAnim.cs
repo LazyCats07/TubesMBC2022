@@ -165,59 +165,65 @@ public class PlayerRoamAnim : MonoBehaviour
     {   
         if(collider.tag == "Arrow_To_Area1_1")
         {
-            Collectables.instance.load();
             SceneManager.LoadScene("Tutorial_RoamingAwal");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area1_2")
         {
-            Collectables.instance.load();
             SceneManager.LoadScene("Tutorial_Roaming");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area2_1")
         {
             SceneManager.LoadScene("Area2_Roaming");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area2_Mid")
         {
-            CollectCoin.instance.save();
             SceneManager.LoadScene("Area2_Mid");
-            CollectCoin.instance.load();
             Time.timeScale = 1f;
+            Collectables.instance.load();
             
         }
         if(collider.tag == "Arrow_To_Area2_Beach")
         {
             SceneManager.LoadScene("Area2_Beach");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area2_2")
         {
             SceneManager.LoadScene("Area2_Roaming2");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area3_1")
         {
             SceneManager.LoadScene("Area3_Roaming");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area3_2")
         {
             SceneManager.LoadScene("Area3_Roaming2");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area3_3")
         {
             SceneManager.LoadScene("Area3_Roaming3");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Area4")
         {
             GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
             SceneManager.LoadScene("HuangLong_Cutscene");
             Time.timeScale = 1f;
+            Collectables.instance.load();
         }
         if(collider.tag == "Arrow_To_Azatoth")
         {
@@ -257,7 +263,6 @@ public class PlayerRoamAnim : MonoBehaviour
             //GameObject.Find("Player").GetComponent<AudioSource>().Play();
             CoinSoundManager.instance.coins_source.PlayOneShot(CoinSoundManager.instance.coin_sound);
             Collectables.instance.Addcoin();
-            Collectables.instance.save();
             // CollectCoin.instance.addC();
             // CollectCoin.instance.save();
 
