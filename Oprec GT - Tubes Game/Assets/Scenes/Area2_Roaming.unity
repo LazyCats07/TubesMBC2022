@@ -18189,10 +18189,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1932538893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2360761a17cf200449f9349257653786, type: 3}
+  m_Script: {fileID: 11500000, guid: ec84291dacf40f4498ab85f73cbcbda9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoinVal: {fileID: 1279989414}
+  mycoins: {fileID: 1279989414}
+  totaltcoins: {fileID: 1279989414}
+  ItemType: 
 --- !u!1 &1968655618
 GameObject:
   m_ObjectHideFlags: 0

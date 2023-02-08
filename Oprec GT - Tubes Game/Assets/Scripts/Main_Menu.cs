@@ -30,6 +30,8 @@ public class Main_Menu : MonoBehaviour
         // Collectables.instance.Resetcoin();
     }
 
-    
-
+    // public void AllReset()
+    // {
+    //     Collectables.instance.Resetcoin();
+    // }
 }
