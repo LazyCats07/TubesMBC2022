@@ -32,6 +32,7 @@ public class Pause : MonoBehaviour
     public void Title()
     {
         SceneManager.LoadScene("Main Menu");
+        GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
     }
 
    

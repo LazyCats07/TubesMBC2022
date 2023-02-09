@@ -39,10 +39,11 @@ public class PlayerRoamAnim : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.LeftShift))
-            speed = 10f;
-        else
-            speed = 2f;
+        speed = 2f;
+        // if(Input.GetKey(KeyCode.LeftShift))
+        //     speed = 10f;
+        // else
+        //     speed = 2f;
         
         AnimationState();
         MoveRight();
