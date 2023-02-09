@@ -227,13 +227,18 @@ public class PlayerRoamAnim : MonoBehaviour
         }
         if(collider.tag == "Arrow_To_Azatoth")
         {
-            Cs1.SetActive(true);
-            Time.timeScale = 1f;
-            bg1.SetActive(false);
-            Time.timeScale = 0f;
-            bg2.SetActive(false);
-            Time.timeScale = 0f;
-            GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
+            Collectables.instance.load();
+            if(Collectables.instance.TotalCoins > 14)
+            {
+                Cs1.SetActive(true);
+                Time.timeScale = 1f;
+                bg1.SetActive(false);
+                Time.timeScale = 0f;
+                bg2.SetActive(false);
+                Time.timeScale = 0f;
+                GameObject.Find("Audio_Roaming").GetComponent<AudioSource>().Stop();
+            }
+                        
         }
         if(collider.tag == "Mob_area1")
         {

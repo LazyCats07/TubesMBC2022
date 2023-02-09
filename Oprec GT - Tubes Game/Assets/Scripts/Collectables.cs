@@ -9,7 +9,7 @@ public class Collectables : MonoBehaviour
     public Text mycoins;
     public Text totaltcoins;
     int Coins = 0;
-    int TotalCoins;
+    public int TotalCoins;
     public string ItemType;
 
     private void Awake()
