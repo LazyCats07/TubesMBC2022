@@ -80,7 +80,7 @@ public class OP : MonoBehaviour
     public void Final()
     {
         Frame2.SetActive(false);
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Area5_Combat");
     }
 }

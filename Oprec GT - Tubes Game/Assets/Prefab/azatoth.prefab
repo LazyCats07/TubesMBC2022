@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2293371260904746793}
   - component: {fileID: 7474217520989716730}
   - component: {fileID: 236576520098501779}
-  - component: {fileID: 6714407334561476235}
   m_Layer: 0
   m_Name: azatoth
   m_TagString: Untagged
@@ -72,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 23497475ea2d9774a97972afd01b37df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,22 +102,3 @@ MonoBehaviour:
   damage: 35
   maxHP: 100
   currentHP: 100
---- !u!95 &6714407334561476235
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2810821988507128909}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 38d71639344e95a4587905c5dd814812, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
