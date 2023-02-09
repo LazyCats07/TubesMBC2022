@@ -5863,6 +5863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mycoins: {fileID: 1288656464}
   totaltcoins: {fileID: 1288656464}
+  TotalCoins: 0
   ItemType: 
 --- !u!1 &700413618
 GameObject:
@@ -17293,6 +17294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mycoins: {fileID: 1288656464}
   totaltcoins: {fileID: 1288656464}
+  TotalCoins: 0
   ItemType: 
 --- !u!114 &2085244814
 MonoBehaviour:
